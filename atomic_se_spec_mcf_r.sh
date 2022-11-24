@@ -1,7 +1,7 @@
 #!/bin/bash
 
 GEM5_DIR=$(pwd)/../gem5
-GEM5_EXE=$GEM5_DIR/build/ARM/gem5.opt
+GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
 CheckPoint=$(pwd)/spec_mcf_r_test
@@ -10,7 +10,9 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 RUNCPU=/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/bin/runcpu
 SPEC_CONF=/home/n869p538/wrk_offloadenginesupport/async_nginx_build/spec_conf/testConfig.cfg
 PARMS=" --iterations=1 --config=${SPEC_CONF}/../../../spec_conf/testConfig.cfg --copies=1 "
-EXE="${RUNCPU} "
+EXE=${RUNCPU}
+SPEC_BIN="/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/505.mcf_r/run/run_base_refrate_mytest-m64.0000/mcf_r_base.mytest-m64 "
+SPEC_ARGS="inp.in  > inp.out 2>> inp.err"
 
 OUTDIR=spec_mcf_default
 
@@ -33,6 +35,6 @@ $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 			\
 					--bp-type=BiModeBP			\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
-					--cmd=${EXE}				\
-					--options="${PARMS}"
+					--cmd=${SPEC_BIN}			\
+					--options="${SPEC_ARGS}"
 

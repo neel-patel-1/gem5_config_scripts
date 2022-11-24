@@ -1,7 +1,7 @@
 #!/bin/bash
 
 GEM5_DIR=$(pwd)/../gem5
-GEM5_EXE=$GEM5_DIR/build/ARM/gem5.opt
+GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
 CheckPoint=$(pwd)/spec_mcf_r_test
@@ -19,8 +19,5 @@ OUTDIR=spec_mcf_default
 NNODES=2
 
 
-$GEM5_EXE --outdir=${OUTDIR} $SE_PATH 			\
-	--cpu-type=TimingSimpleCPU --l1d_size=64kB --l1i_size=16kB \
-					--cmd=${EXE}				\
-					--options="${PARMS}"
+$GEM5_EXE --outdir=${OUTDIR} $SE_PATH --cpu-type=TimingSimpleCPU --l1d_size=64kB --l1i_size=16kB --cmd=${EXE}
 
