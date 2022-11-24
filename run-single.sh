@@ -7,7 +7,7 @@ IMG=$(pwd)/../resources/rootfs.ext2
 VMLINUX=$(pwd)/../resources/vmlinux
 Bootld=$(pwd)/../resources/boot.arm64
 CheckPoint=m5out
-OutputDir=$(pwd)/benchmark_stats/m5out_water_nsquared_o3_hugepages
+OutputDir=${1}
 
 FS_CONFIG=$(pwd)/armFS.py
 GEM5_EXE=$GEM5_DIR/build/ARM/gem5.opt
@@ -21,7 +21,7 @@ $GEM5_EXE --outdir=$OutputDir $FS_CONFIG\
                     --disk=$IMG                 		\
                     --bootscript=$SCRIPT        		\
                     --bootloader=$Bootld 			\
-                    --cpu=o3				\
+                    --cpu=atomic				\
                     --num-cores=4                               \
 		    --checkpoint_dir=$CheckPoint		\
 		    --restore
