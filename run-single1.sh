@@ -14,7 +14,7 @@ SCRIPT=$(pwd)/rcS/single/hack_back_ckpt.rcS
 #SCRIPT=$(pwd)/rcS/single/test_progs/run_water_nsquared.sh
 NNODES=2
 
-$GEM5_EXE $FS_CONFIG 						\
+$GEM5_EXE --outdir=${1} $FS_CONFIG 						\
                     --kernel=$VMLINUX           		\
                     --disk=$IMG                 		\
                     --bootscript=$SCRIPT        		\
