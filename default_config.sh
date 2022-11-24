@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "1" | sudo /sys/devices/system/cpu/intel_pstate/no_turbo
+echo "1" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
 
 # reset llc ways
 sudo pqos -R

@@ -30,16 +30,3 @@ ZERO = 1.55319
 WCOS = 0.585882
 WSIN = 0.756950
 ***** NEW RUN STARTING FROM REGULAR LATTICE *****
-         3        1.57495      0.05127     10.55761                      -2.15831
-           10.026        305.74022        -19.57198
-COMPUTESTART (after initialization) = 405314
-COMPUTEEND = 589223
-COMPUTETIME (after initialization) = 183909
-Measured Time (2nd timestep onward) = 112607
-Intramolecular time only (2nd timestep onward) = 2263
-Intermolecular time only (2nd timestep onward) = 110261
-Other time (2nd timestep onward) = 83
-
-Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
-Done.
-Ending the Simulation!
