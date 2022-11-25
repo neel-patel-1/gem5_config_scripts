@@ -13,6 +13,7 @@ source ${1}
 OUTDIR=${OUTDIR}_no_hw_preftch
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
+OUTDIR=${OUTDIR}_explicit_huge_txt_${SIM_TICKS}_simticks
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
