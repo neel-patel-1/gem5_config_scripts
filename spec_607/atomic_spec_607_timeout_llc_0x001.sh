@@ -8,13 +8,19 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 
 #BENCHMARK
 
-OUTDIR=spec_mcf_default
+OUTDIR=spec_mcf_default_atomic_timeout_llc_0x001
 SPEC_BIN=/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/505.mcf_r/build/build_base_mytest-m64.0000/mcf_r
 SPEC_ARGS="/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/505.mcf_r/run/run_base_refrate_mytest-m64.0000/inp.in "
 [ ! -f "${SPEC_BIN}" ] && echo "no spec bin" && exit
 
+./default_config.sh
 
-$GEM5_EXE --outdir=${OUTDIR} $SE_PATH 			\
+# set core 5 to use last llc way
+sudo pqos -R 
+sudo pqos -e "llc:1=0x0001;" 
+sudo pqos -a "cos:1=5;" 
+
+taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
@@ -33,6 +39,8 @@ $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 			\
 					--bp-type=BiModeBP			\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
+					--maxtime=10				\
 					--cmd=${SPEC_BIN}			\
+					--rel-max-tick=50500000000  \
 					--options="${SPEC_ARGS}"
 
