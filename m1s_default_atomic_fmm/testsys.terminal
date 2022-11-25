@@ -1,0 +1,21 @@
+Loading new script...
+Beginning FMM...
+Creating a two cluster, non uniform distribution for 16384 particles
+Starting FMM with 1 processor
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      1151094        2251        7103        1084       93907     1042903           0        1861        1983
+
+                                   TIMING INFORMATION
+Start time                        :           397612
+Initialization finish time        :          1164165
+Overall finish time               :          2315259
+Total time with initialization    :          1917647
+Total time without initialization :          1151094
+
+Total time for steps 3 to 5 :      1151094
+
+Done.
+Ending the Simulation!
