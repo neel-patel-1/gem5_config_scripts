@@ -14,4 +14,13 @@ sudo wrmsr -a 0x1a4 0
 # enable ht by default
 echo on | sudo tee /sys/devices/system/cpu/smt/control
 
+# unset LD_PRELOAD
+unset LD_PRELOAD
+unset IODLR_USE_EXPLICIT_HP
 
+#unset script specific binary and args
+unset BIN
+unset ARGS
+
+# 4096 hugepages
+echo "4096" | sudo tee /proc/sys/vm/nr_hugepages
