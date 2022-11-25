@@ -8,19 +8,22 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
+source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_memmax10MB
+OUTDIR=${OUTDIR}_huge_txt
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
-
-# set core 5 to use last llc way
-sudo pqos -R 
-sudo pqos -e 'mba_max:1=10;'
-sudo pqos -a 'cos:1=5'
-
 #BENCHMARK
 
 
+
+export IODLR_USE_EXPLICIT_HP=1
+[ "$?" != 0 ] && echo "Could not set IODLR to use explicit HPs" && exit -1
+export LD_PRELOAD=/usr/lib64/liblppreload.so
+[ "$?" != 0 ] && echo "LD_PRELOAD unset" && exit -1
+
+IODLR_USE_EXPLICIT_HP=1 \
+LD_PRELOAD=1 \
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\
                     --num-cpus=4               \
@@ -43,3 +46,4 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--cmd=${BIN}			\
 					--rel-max-tick=50500000000  \
 					--options="${ARGS}"
+

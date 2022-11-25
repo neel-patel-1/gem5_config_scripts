@@ -6,18 +6,19 @@ GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
 CheckPoint=$(pwd)/spec_mcf_r_test
 
-./default_config.sh
+[ -z "$1" ] && echo "No Source Config File Provided" && exit -1
+source ./default_config.sh
+[ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
+OUTDIR=${OUTDIR}_memmax10MB
+[ -z "$BIN" ] && echo "No Binary Provided" && exit -1
+[ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 
 # set core 5 to use last llc way
 sudo pqos -R 
 sudo pqos -e 'mba_max:1=10;'
 sudo pqos -a 'cos:1=5'
 
-OUTDIR=spec_mcf_default_atomic_timeout_memmax10MB
 #BENCHMARK
-SPEC_BIN=/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/505.mcf_r/build/build_base_mytest-m64.0000/mcf_r
-SPEC_ARGS="/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/505.mcf_r/run/run_base_refrate_mytest-m64.0000/inp.in "
-[ ! -f "${SPEC_BIN}" ] && echo "no spec bin" && exit
 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
@@ -39,7 +40,6 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--bp-type=BiModeBP			\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
-					--cmd=${SPEC_BIN}			\
+					--cmd=${BIN}			\
 					--rel-max-tick=50500000000  \
-					--options="${SPEC_ARGS}"
-
+					--options="${ARGS}"

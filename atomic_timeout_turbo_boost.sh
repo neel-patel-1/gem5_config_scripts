@@ -8,6 +8,7 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
+source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
 OUTDIR=${OUTDIR}_turbo_boost
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1

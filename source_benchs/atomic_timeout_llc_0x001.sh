@@ -8,15 +8,19 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
+source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_no_hw_preftch
+OUTDIR=${OUTDIR}_llc_0x001
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
 
-sudo wrmsr -a 0x1a4 15
 
+# set core 5 to use last llc way
+sudo pqos -R 
+sudo pqos -e "llc:1=0x0001;" 
+sudo pqos -a "cos:1=5;" 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\
@@ -40,3 +44,5 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--cmd=${BIN}			\
 					--rel-max-tick=50500000000  \
 					--options="${ARGS}"
+
+
