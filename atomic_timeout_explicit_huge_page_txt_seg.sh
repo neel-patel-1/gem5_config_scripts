@@ -10,7 +10,7 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_huge_txt
+OUTDIR=${OUTDIR}_explicit_huge_txt
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
