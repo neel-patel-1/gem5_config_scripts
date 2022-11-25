@@ -6,7 +6,7 @@ GEM5_DIR=$(pwd)/../gem5
 IMG=$(pwd)/../resources/rootfs.ext2
 VMLINUX=$(pwd)/../resources/vmlinux
 Bootld=$(pwd)/../resources/boot.arm64
-CheckPoint=m5out
+CheckPoint=$(pwd)/m5out
 OutputDir=${1}
 
 FS_CONFIG=$(pwd)/armFS.py
