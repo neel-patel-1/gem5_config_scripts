@@ -14,4 +14,5 @@ sudo wrmsr -a 0x1a4 0
 # enable ht by default
 echo on | sudo tee /sys/devices/system/cpu/smt/control
 
-
+# unset LD_PRELOAD
+unset LD_PRELOAD
