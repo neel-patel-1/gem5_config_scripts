@@ -1,0 +1,52 @@
+Loading new script...
+Beginning water_spatial...
+Using 1 procs on 3 steps of 3375 mols
+Other parameters:
+	TSTEP = 1.50e-18
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+343 boxes with 1 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =     3375
+NUMBER OF PROCESSORS       =        1
+TIME STEP                  = 1.50e-03 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 1
+x_inc = 7	 y_inc = 7	 z_inc = 7
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 14.9999999999999876
+BOXL =  46.595643
+CUTOFF =   6.212752
+BOX_LENGTH =   6.656520
+BOX_PER_SIDE = 7
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     6023.89254   2030.30995      1.22371     -0.36576 
+         8055.060    1646933.73917         -9.61937
+COMPUTESTART (after initialization) = 472634
+COMPUTEEND = 4182581
+COMPUTETIME (after initialization) = 3709947
+Measured Time (2nd timestep onward) = 2215443
+Intramolecular time only (2nd timestep onward) = 31223
+Intermolecular time only (2nd timestep onward) = 2184200
+Other time (2nd timestep onward) = 20
+
+Exited Happily with XTT = 8055.06 (note: XTT value is garbage if NPRINT > NSTEP)
+Done.
+Ending the Simulation!
