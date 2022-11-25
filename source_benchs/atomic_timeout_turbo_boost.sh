@@ -43,3 +43,4 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--rel-max-tick=${SIM_TICKS}  \
 					--options="${ARGS}"
 
+echo "output directory:${OUTDIR}"

@@ -47,3 +47,4 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--options="${ARGS}"
 
 
+echo "output directory:${OUTDIR}"
