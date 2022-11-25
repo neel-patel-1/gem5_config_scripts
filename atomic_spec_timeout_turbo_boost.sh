@@ -36,7 +36,6 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--bp-type=BiModeBP			\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
-					--maxtime=10				\
 					--cmd=${SPEC_BIN}			\
 					--rel-max-tick=50500000000  \
 					--options="${SPEC_ARGS}"
