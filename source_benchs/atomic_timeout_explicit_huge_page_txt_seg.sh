@@ -46,7 +46,7 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
 					--cmd=${BIN}			\
-					--rel-max-tick=50500000000  \
+					--rel-max-tick=${SIM_TICKS}  \
 					--options="${ARGS}"
 
 echo "output directory:${OUTDIR}"
