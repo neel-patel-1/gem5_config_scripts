@@ -13,7 +13,7 @@ source ${1}
 OUTDIR=${OUTDIR}_transparent_hp
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_explicit_huge_txt_${SIM_TICKS}_simticks
+OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
