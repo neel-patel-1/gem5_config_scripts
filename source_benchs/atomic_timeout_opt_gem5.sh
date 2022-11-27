@@ -11,7 +11,7 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_default
+OUTDIR=${OUTDIR}_O3_gem5
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
 OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks

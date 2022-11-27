@@ -20,9 +20,9 @@ OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks_timing
 
 
 # set core 5 to use last llc way
-sudo pqos -R 
-sudo pqos -e "llc:1=0x0001;" 
-sudo pqos -a "cos:1=5;" 
+sudo pqos -I -R mbaCtrl-on
+sudo pqos -I -a "cos:1=5;" 
+sudo pqos -I -e "llc:5=0x001" 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=TimingSimpleCPU	\

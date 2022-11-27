@@ -4,7 +4,7 @@
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}
+OUTDIR=${OUTDIR}_workload_monitor
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 

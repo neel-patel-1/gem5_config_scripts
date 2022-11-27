@@ -1,7 +1,13 @@
 Run all system configs for a single benchmark
 ./run_all_bench.sh <bench_config_file.sh>
 # see parsec_streamcluster_config.sh and spec_mcf_config.sh for examples of bench_config_file.sh
+# copy all test configurations to run into runnable/ -- run_all_bench.sh script will run all of these for the provided config file
 
+Run all cpu types and collect memory bandwidth and cpu utilization for the cpu type
+./profile_cpus.sh <benchmark_config.sh>
+
+
+Other Scripts:
 
 Setup Default configurations
 ./default_config.sh
