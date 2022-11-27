@@ -9,7 +9,7 @@ CheckPoint=$(pwd)/workload_mon_cpoint
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_atomicpu_gem5_monitoring
+OUTDIR=${OUTDIR}_minorcpu_gem5_monitoring
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
@@ -41,7 +41,7 @@ spec_mon(){
 sudo pqos -R 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=AtomicSimpleCPU	\
+                    --cpu-type=TimingSimpleCPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \
