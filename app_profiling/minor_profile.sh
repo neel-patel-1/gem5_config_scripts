@@ -60,7 +60,7 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
 					--cmd=${BIN}			\
-					--maxtime=3600			\
+					--maxtime=${MAXTIME}			\
 					--options="${ARGS}" &
 w_pid=$!
 
