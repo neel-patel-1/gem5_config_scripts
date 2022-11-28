@@ -41,7 +41,7 @@ spec_mon(){
 sudo pqos -R 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=TimingSimpleCPU	\
+                    --cpu-type=DerivO3CPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \
