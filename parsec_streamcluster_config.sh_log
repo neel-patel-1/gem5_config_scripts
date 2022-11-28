@@ -1,5 +1,6 @@
-./atomic_timeout_1200MHz.sh parsec_streamcluster_config.sh 
+./o3_timeout_test.sh parsec_streamcluster_config.sh 
 1
+WARN: resctl filesystem mounted! Using MSR interface may corrupt resctrl filesystem and cause unexpected behaviour
 NOTE:  Mixed use of MSR and kernel interfaces to manage
        CAT or CMT & MBM may lead to unexpected behavior.
 Allocation reset successful
@@ -45,156 +46,14 @@ Setting cpu: 38
 Setting cpu: 39
 on
 4096
-Setting cpu: 0
-Setting cpu: 1
-Setting cpu: 2
-Setting cpu: 3
-Setting cpu: 4
-Setting cpu: 5
-Setting cpu: 6
-Setting cpu: 7
-Setting cpu: 8
-Setting cpu: 9
-Setting cpu: 10
-Setting cpu: 11
-Setting cpu: 12
-Setting cpu: 13
-Setting cpu: 14
-Setting cpu: 15
-Setting cpu: 16
-Setting cpu: 17
-Setting cpu: 18
-Setting cpu: 19
-Setting cpu: 20
-Setting cpu: 21
-Setting cpu: 22
-Setting cpu: 23
-Setting cpu: 24
-Setting cpu: 25
-Setting cpu: 26
-Setting cpu: 27
-Setting cpu: 28
-Setting cpu: 29
-Setting cpu: 30
-Setting cpu: 31
-Setting cpu: 32
-Setting cpu: 33
-Setting cpu: 34
-Setting cpu: 35
-Setting cpu: 36
-Setting cpu: 37
-Setting cpu: 38
-Setting cpu: 39
 Global frequency set at 1000000000000 ticks per second
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 21.1.0.2
-gem5 compiled Nov 24 2022 15:55:37
-gem5 started Nov 26 2022 20:44:17
-gem5 executing on pollux.ittc.ku.edu, pid 4777
-command line: /opt/shared/gem5-learning/configs/../gem5/build/X86/gem5.opt --outdir=parsec_streamcluster_largeinput_4tds_1200_MHz_2272500000000_atomic /opt/shared/gem5-learning/gem5/configs/example/se.py --cpu-type=AtomicSimpleCPU --num-cpus=4 --mem-channels=1 --cpu-clock=4GHz --sys-clock=4GHz --mem-type=DDR3_1600_8x8 --mem-channels=1 --mem-size=2GB --caches --l1i_size=32kB --l1i_assoc=2 --l1d_size=64kB --l1d_assoc=2 --l2_size=2MB --l2_assoc=16 --bp-type=BiModeBP --bp-type=BiModeBP --checkpoint-dir=/opt/shared/gem5-learning/configs/spec_mcf_r_test --cmd=/opt/shared/parsec_native/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster --rel-max-tick=2272500000000 '--options=10 20 128 16384 16384 1000 none output.txt 4'
+gem5 compiled Nov 25 2022 17:10:50
+gem5 started Nov 28 2022 13:13:04
+gem5 executing on castor.ittc.ku.edu, pid 2509122
+command line: /opt/shared/gem5-learning/gem5_config_scripts/../gem5/build/X86/gem5.opt --outdir=parsec_streamcluster_largeinput_4tds_default_2272500000000_simticks_o3 /opt/shared/gem5-learning/gem5/configs/example/se.py --cpu-type=O3CPU --num-cpus=4 --mem-channels=1 --cpu-clock=4GHz --sys-clock=4GHz --mem-type=DDR3_1600_8x8 --mem-channels=1 --mem-size=2GB --caches --l1i_size=32kB --l1i_assoc=2 --l1d_size=64kB --l1d_assoc=2 --l2_size=2MB --l2_assoc=16 --bp-type=BiModeBP --bp-type=BiModeBP --checkpoint-dir=/opt/shared/gem5-learning/gem5_config_scripts/spec_mcf_r_test --cmd=/opt/shared/parsec_native/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster --rel-max-tick=2272500000000 '--options=10 20 128 16384 16384 1000 none output.txt 1'
 
 **** REAL SIMULATION ****
-Exiting @ tick 2272500000000 because simulate() limit reached
-output directory:parsec_streamcluster_largeinput_4tds_1200_MHz_2272500000000_atomic
-./timing_timeout_1200MHz.sh parsec_streamcluster_config.sh 
-1
-NOTE:  Mixed use of MSR and kernel interfaces to manage
-       CAT or CMT & MBM may lead to unexpected behavior.
-Allocation reset successful
-Setting cpu: 0
-Setting cpu: 1
-Setting cpu: 2
-Setting cpu: 3
-Setting cpu: 4
-Setting cpu: 5
-Setting cpu: 6
-Setting cpu: 7
-Setting cpu: 8
-Setting cpu: 9
-Setting cpu: 10
-Setting cpu: 11
-Setting cpu: 12
-Setting cpu: 13
-Setting cpu: 14
-Setting cpu: 15
-Setting cpu: 16
-Setting cpu: 17
-Setting cpu: 18
-Setting cpu: 19
-Setting cpu: 20
-Setting cpu: 21
-Setting cpu: 22
-Setting cpu: 23
-Setting cpu: 24
-Setting cpu: 25
-Setting cpu: 26
-Setting cpu: 27
-Setting cpu: 28
-Setting cpu: 29
-Setting cpu: 30
-Setting cpu: 31
-Setting cpu: 32
-Setting cpu: 33
-Setting cpu: 34
-Setting cpu: 35
-Setting cpu: 36
-Setting cpu: 37
-Setting cpu: 38
-Setting cpu: 39
-on
-4096
-Setting cpu: 0
-Setting cpu: 1
-Setting cpu: 2
-Setting cpu: 3
-Setting cpu: 4
-Setting cpu: 5
-Setting cpu: 6
-Setting cpu: 7
-Setting cpu: 8
-Setting cpu: 9
-Setting cpu: 10
-Setting cpu: 11
-Setting cpu: 12
-Setting cpu: 13
-Setting cpu: 14
-Setting cpu: 15
-Setting cpu: 16
-Setting cpu: 17
-Setting cpu: 18
-Setting cpu: 19
-Setting cpu: 20
-Setting cpu: 21
-Setting cpu: 22
-Setting cpu: 23
-Setting cpu: 24
-Setting cpu: 25
-Setting cpu: 26
-Setting cpu: 27
-Setting cpu: 28
-Setting cpu: 29
-Setting cpu: 30
-Setting cpu: 31
-Setting cpu: 32
-Setting cpu: 33
-Setting cpu: 34
-Setting cpu: 35
-Setting cpu: 36
-Setting cpu: 37
-Setting cpu: 38
-Setting cpu: 39
-Global frequency set at 1000000000000 ticks per second
-gem5 Simulator System.  http://gem5.org
-gem5 is copyrighted software; use the --copyright option for details.
-
-gem5 version 21.1.0.2
-gem5 compiled Nov 24 2022 15:55:37
-gem5 started Nov 26 2022 20:49:41
-gem5 executing on pollux.ittc.ku.edu, pid 4828
-command line: /opt/shared/gem5-learning/configs/../gem5/build/X86/gem5.opt --outdir=parsec_streamcluster_largeinput_4tds_1200MHz_2272500000000_timing /opt/shared/gem5-learning/gem5/configs/example/se.py --cpu-type=TimingSimpleCPU --num-cpus=4 --mem-channels=1 --cpu-clock=4GHz --sys-clock=4GHz --mem-type=DDR3_1600_8x8 --mem-channels=1 --mem-size=2GB --caches --l1i_size=32kB --l1i_assoc=2 --l1d_size=64kB --l1d_assoc=2 --l2_size=2MB --l2_assoc=16 --bp-type=BiModeBP --bp-type=BiModeBP --checkpoint-dir=/opt/shared/gem5-learning/configs/spec_mcf_r_test --cmd=/opt/shared/parsec_native/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster --rel-max-tick=2272500000000 '--options=10 20 128 16384 16384 1000 none output.txt 4'
-
-**** REAL SIMULATION ****
-Exiting @ tick 2272500000000 because simulate() limit reached
-output directory:parsec_streamcluster_largeinput_4tds_1200MHz_2272500000000_timing

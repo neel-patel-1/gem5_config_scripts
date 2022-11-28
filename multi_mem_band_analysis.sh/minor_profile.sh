@@ -1,36 +1,47 @@
 #!/bin/bash
-
 GEM5_DIR=$(pwd)/../gem5
 GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
-CheckPoint=$(pwd)/spec_mcf_r_test
+CheckPoint=$(pwd)/workload_mon_cpoint
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_llc_0x001_antagonist
+OUTDIR=${OUTDIR}_minorcpu_gem5_monitoring
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
-#BENCHMARK
+[ -z "$MAXTIME" ] && echo "No MAX Hosttime Specified" && exit -1
 
-run_stressor(){
-	taskset -c 5 stress-ng --vm 3 --vm-bytes 5m --vm-keep --vm-method rand-set &
-	pid=$!
+mkdir -p $OUTDIR
+rm -f $OUTDIR/*
+
+#1 - proc to monitor cpu utilization
+cpu_mon(){
+	while [ "1" ]; do
+		time=$(printf '%(%H:%M:%S)T')
+		cpu_util=$( top -b -n 1 -p ${1} | grep -A2 PID )
+		echo "${time}" >> $OUTDIR/cpu_util
+		echo "${cpu_util}" >> $OUTDIR/cpu_util
+		sleep 0.1
+	done
+
 }
 
-# set core 5 to use last llc way
-sudo pqos -R 
-sudo pqos -e "llc:1=0x0001;" 
-sudo pqos -a "cos:1=5;" 
+#1 - proc to monitor memory bandwidth of
+spec_mon(){
+	while [ "1" ] ; do
+		sudo pqos -t 1 -i 1 -I -p "mbl:${1};llc:${1}" >> $OUTDIR/mem_llc
+	done
+}
 
-run_stressor
+
+sudo pqos -R 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=AtomicSimpleCPU	\
+                    --cpu-type=DerivO3CPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \
@@ -49,9 +60,19 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
 					--cmd=${BIN}			\
-					--rel-max-tick=${SIM_TICKS}  \
-					--options="${ARGS}"
+					--maxtime=${MAXTIME}			\
+					--options="${ARGS}" &
+w_pid=$!
 
-pgrep stress-ng | xargs sudo kill -s 2
-sudo kill -s 2 $pid
+spec_mon  ${w_pid} &
+s_pid=$!
+
+cpu_mon ${w_pid} &
+c_pid=$!
+
+wait $w_pid
+
+sudo kill -KILL $s_pid
+sudo kill -KILL $c_pid
+
 echo "output directory:${OUTDIR}"
