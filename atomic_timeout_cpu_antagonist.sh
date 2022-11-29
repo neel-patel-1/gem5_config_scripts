@@ -10,16 +10,24 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_no_ht
+OUTDIR=${OUTDIR}_llc_0x001_cpu_antagonist
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
 OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
+run_stressor(){
+	taskset -c 5 stress-ng --cpu 3 --cpu-method float80 &
+}
 
+# set core 5 to use last llc way
+sudo pqos -R 
+sudo pqos -e "llc:1=0x0001;" 
+sudo pqos -a "cos:1=5;" 
 
-echo off | sudo tee /sys/devices/system/cpu/smt/control
+run_stressor
+exit
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\
@@ -43,4 +51,6 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--cmd=${BIN}			\
 					--rel-max-tick=${SIM_TICKS}  \
 					--options="${ARGS}"
+
+pgrep stress-ng | xargs sudo kill -s 2
 echo "output directory:${OUTDIR}"

@@ -1,16 +1,17 @@
 #!/bin/bash
 
 GEM5_DIR=$(pwd)/../gem5
-GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
+OPT_GEM5_DIR=/home/n869p538/gem5
+GEM5_EXE=$OPT_GEM5_DIR/build/X86/gem5.opt
 
-SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
+SE_PATH=$OPT_GEM5_DIR/configs/example/se.py
 CheckPoint=$(pwd)/spec_mcf_r_test
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_no_ht
+OUTDIR=${OUTDIR}_O3_gem5
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
 OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
@@ -18,8 +19,6 @@ OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 #BENCHMARK
 
 
-
-echo off | sudo tee /sys/devices/system/cpu/smt/control
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\

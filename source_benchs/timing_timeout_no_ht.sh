@@ -13,7 +13,7 @@ source ${1}
 OUTDIR=${OUTDIR}_no_ht
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
+OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks_timing
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
@@ -22,7 +22,7 @@ OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 echo off | sudo tee /sys/devices/system/cpu/smt/control
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=AtomicSimpleCPU	\
+                    --cpu-type=TimingSimpleCPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \

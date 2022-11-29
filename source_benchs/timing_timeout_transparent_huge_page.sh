@@ -10,19 +10,23 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_no_ht
+OUTDIR=${OUTDIR}_transparent_hp
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
+OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks_timing
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
 
 
-echo off | sudo tee /sys/devices/system/cpu/smt/control
+export IODLR_USE_EXPLICIT_HP=1
+[ "$?" != 0 ] && echo "Could not set IODLR to use explicit HPs" && exit -1
+export LD_PRELOAD=/usr/lib64/liblppreload.so
+[ "$?" != 0 ] && echo "LD_PRELOAD unset" && exit -1
 
+sudo LD_PRELOAD=/usr/lib64/liblppreload.so \
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=AtomicSimpleCPU	\
+                    --cpu-type=TimingSimpleCPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \
@@ -43,4 +47,5 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--cmd=${BIN}			\
 					--rel-max-tick=${SIM_TICKS}  \
 					--options="${ARGS}"
+
 echo "output directory:${OUTDIR}"

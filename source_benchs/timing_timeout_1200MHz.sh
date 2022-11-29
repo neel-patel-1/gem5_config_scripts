@@ -10,19 +10,22 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_no_ht
+OUTDIR=${OUTDIR}_1200MHz
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
+OUTDIR=${OUTDIR}_${SIM_TICKS}_timing
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
+if [ "$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor)" != "userspace" ]; then
+	echo "not using userspace freq governor -- cannot set freq" && exit -1
+fi
+sudo cpupower frequency-set -d 1.2GHz -u 1.2GHz
 
 
-echo off | sudo tee /sys/devices/system/cpu/smt/control
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=AtomicSimpleCPU	\
+                    --cpu-type=TimingSimpleCPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \

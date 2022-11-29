@@ -10,19 +10,19 @@ CheckPoint=$(pwd)/spec_mcf_r_test
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_no_ht
+OUTDIR=${OUTDIR}_turbo_boost
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
+OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks_timing
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
 
 
-echo off | sudo tee /sys/devices/system/cpu/smt/control
+echo "0" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=AtomicSimpleCPU	\
+                    --cpu-type=TimingSimpleCPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \
@@ -43,4 +43,5 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--cmd=${BIN}			\
 					--rel-max-tick=${SIM_TICKS}  \
 					--options="${ARGS}"
+
 echo "output directory:${OUTDIR}"
