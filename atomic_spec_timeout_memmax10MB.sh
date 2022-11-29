@@ -14,9 +14,9 @@ OUTDIR=${OUTDIR}_memmax10MB
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 
 # set core 5 to use last llc way
-sudo pqos -R 
-sudo pqos -e 'mba_max:1=10;'
-sudo pqos -a 'cos:1=5'
+ pqos -R 
+ pqos -e 'mba_max:1=10;'
+ pqos -a 'cos:1=5'
 
 #BENCHMARK
 

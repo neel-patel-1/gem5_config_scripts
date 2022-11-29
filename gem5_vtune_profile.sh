@@ -22,7 +22,7 @@ source ${1}
 OUTDIR=${OUTDIR}_vtune_atomic
 
 mkdir -p $OUTDIR
-[ -d "$OUTDIR" ] && sudo rm -rf $OUTDIR/*
+[ -d "$OUTDIR" ] &&  rm -rf $OUTDIR/*
 
 for core in "${CORES[@]}"; do
 	taskset -c ${core} $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
@@ -61,11 +61,11 @@ echo ${W_PIDS[*]}
 
 ./bg_killer.sh ${W_PIDS[@]} &
 
-sudo vtune -collect-with runsa -result-dir $OUTDIR/VTUNE -knob event-config=MEM_LOAD_RETIRED.FB_HIT_PS,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS_PS,MEM_LOAD_RETIRED.L1_HIT_PS,MEM_LOAD_RETIRED.L2_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L2_MISS_PS,MEM_LOAD_RETIRED.L2_HIT_PS,MEM_LOAD_RETIRED.L3_MISS,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS_PS,MEM_LOAD_RETIRED.L3_HIT_PS,DTLB_LOAD_MISSES.ANY,ITLB_MISSES.ANY \
+ vtune -collect-with runsa -result-dir $OUTDIR/VTUNE -knob event-config=MEM_LOAD_RETIRED.FB_HIT_PS,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS_PS,MEM_LOAD_RETIRED.L1_HIT_PS,MEM_LOAD_RETIRED.L2_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L2_MISS_PS,MEM_LOAD_RETIRED.L2_HIT_PS,MEM_LOAD_RETIRED.L3_MISS,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS_PS,MEM_LOAD_RETIRED.L3_HIT_PS,DTLB_LOAD_MISSES.ANY,ITLB_MISSES.ANY \
 	-knob collectMemBandwidth=false -knob dram-bandwidth-limits=false -knob collectMemObjects=false \
 	-call-stack-mode all \
 	${VT_PIDSTR}
-sudo vtune -format=csv -report hw-events -group-by function -r $OUTDIR/VTUNE > $OUTDIR/VTUNE_RES.csv
+ vtune -format=csv -report hw-events -group-by function -r $OUTDIR/VTUNE > $OUTDIR/VTUNE_RES.csv
 scp $OUTDIR/VTUNE_RES.csv mercs:~/$(printf '%(%H:%M:%S_%d-%m-%Y)T')_VTUNE_RES.csv
 
 wait ${W_PIDS[*]}

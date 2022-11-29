@@ -24,7 +24,7 @@ export IODLR_USE_EXPLICIT_HP=1
 export LD_PRELOAD=/usr/lib64/liblppreload.so
 [ "$?" != 0 ] && echo "LD_PRELOAD unset" && exit -1
 
-sudo LD_PRELOAD=/usr/lib64/liblppreload.so \
+ LD_PRELOAD=/usr/lib64/liblppreload.so \
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\
                     --num-cpus=4               \

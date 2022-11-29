@@ -5,12 +5,10 @@ GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
 #RESTORE=$(pwd)/atomic_cpoint
 
-export VTUNE_WAIT=$(( 1 * 60 ))
-export MON_DELAY=$(( 1 * 60 ))
+export VTUNE_WAIT=$(( 1200  ))
+export MON_DELAY=$(( 60 ))
 #CORES=( "1" "2" "3" "4" "5"  )
 CORES=( "1" )
-W_PIDS=( )
-C_PIDS=( )
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
@@ -23,7 +21,7 @@ source ${1}
 OUTDIR=${OUTDIR}_vtune_o3
 
 mkdir -p $OUTDIR
-[ -d "$OUTDIR" ] && sudo rm -rf $OUTDIR/*
+[ -d "$OUTDIR" ] &&  rm -rf $OUTDIR/*
 
 for core in "${CORES[@]}"; do
 	taskset -c ${core} $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
@@ -54,7 +52,7 @@ done
 #start vtune analysis 
 for i in ${W_PIDS[@]};
 do
-	VT_PIDSTR+="--target-pid $i "
+	VT_PIDSTR+="--pid $i "
 done
 
 echo ${W_PIDS[*]} 
@@ -63,12 +61,11 @@ sleep $MON_DELAY
 
 ./bg_killer.sh ${W_PIDS[@]} &
 
-sudo vtune -collect-with runsa -result-dir $OUTDIR/VTUNE -knob event-config=MEM_LOAD_RETIRED.FB_HIT_PS,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS_PS,MEM_LOAD_RETIRED.L1_HIT_PS,MEM_LOAD_RETIRED.L2_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L2_MISS_PS,MEM_LOAD_RETIRED.L2_HIT_PS,MEM_LOAD_RETIRED.L3_MISS,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS_PS,MEM_LOAD_RETIRED.L3_HIT_PS,DTLB_LOAD_MISSES.ANY,ITLB_MISSES.ANY \
-	-knob collectMemBandwidth=false -knob dram-bandwidth-limits=false -knob collectMemObjects=false \
-	-call-stack-mode all \
-	${VT_PIDSTR}
-sudo vtune -format=csv -csv-delimiter comma -report hw-events -group-by package -r $OUTDIR/VTUNE > $OUTDIR/VTUNE_RES.csv
-scp $OUTDIR/VTUNE_RES.csv mercs:~/$(printf '%(%H:%M:%S_%d-%m-%Y)T')_VTUNE_RES.csv
+
+EVENTS_A=dtlb_load_misses.stlb_hit,dtlb_load_misses.miss_causes_a_walk,dtlb_store_misses.stlb_hit,dtlb_store_misses.miss_causes_a_walk,iTLB-load-misses,iTLB-loads
+EVENTS_B=mem_load_retired.fb_hit,mem_load_retired.l1_miss,mem_load_retired.l1_hit,mem_load_retired.l2_miss,mem_load_retired.l2_hit,mem_load_retired.l3_miss,mem_load_retired.l3_hit
+
+perf record -e "$EVENTS_B" -e "$EVENTS_A" ${VT_PIDSTR} -o ${OUTDIR}/perf.data
 
 wait ${W_PIDS[*]}
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 ./default_config.sh
 
-echo off | sudo tee /sys/devices/system/cpu/smt/control
+echo off |  tee /sys/devices/system/cpu/smt/control
 
 mkdir -p disable_HT_atomic_parsec
 
