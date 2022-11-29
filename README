@@ -1,10 +1,15 @@
 Run all system configs for a single benchmark
 ./run_all_bench.sh <bench_config_file.sh>
-# see parsec_streamcluster_config.sh and spec_mcf_config.sh for examples of bench_config_file.sh
-# copy all test configurations to run into runnable/ -- run_all_bench.sh script will run all of these for the provided config file
+ - see parsec_streamcluster_config.sh and spec_mcf_config.sh for examples of bench_config_file.sh
+ - copy all system configuration scripts to run from source_benchs/ into runnable/ (run_all_bench.sh script will run all of these for the provided bench_config_file.sh)
 
 Run all cpu types and collect memory bandwidth and cpu utilization for the cpu type
 ./profile_cpus.sh <benchmark_config.sh>
+ - see parsec_streamcluster_config.sh and spec_mcf_config.sh for examples of bench_config_file.sh
+ - copy all system configuration scripts to run from app_profiling/ into runnable_cpu_profile/ (run_all_bench.sh script will run all of these for the provided bench_config_file.sh)
+
+Run vtune collection script after starting gem5 -- collects 10 min of samples -- make sure the benchmark config runs for 10 min
+./gem5_vtune_profile.sh <benchmark_config.sh>
 
 
 Other Scripts:

@@ -5,7 +5,7 @@ GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
 RESTORE=$(pwd)/atomic_cpoint
 
-export VTUNE_WAIT=5
+export VTUNE_WAIT=$(( 10 * 60 ))
 #CORES=( "1" "2" "3" "4" "5"  )
 CORES=( "1" )
 W_PIDS=( )
