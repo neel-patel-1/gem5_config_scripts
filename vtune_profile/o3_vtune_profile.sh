@@ -21,7 +21,7 @@ source ${1}
 OUTDIR=${OUTDIR}_vtune_o3
 
 mkdir -p $OUTDIR
-[ -d "$OUTDIR" ] && sudo rm -rf $OUTDIR/*
+[ -d "$OUTDIR" ] &&  rm -rf $OUTDIR/*
 
 for core in "${CORES[@]}"; do
 	taskset -c ${core} $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
@@ -66,6 +66,7 @@ EVENTS_A=dtlb_load_misses.stlb_hit,dtlb_load_misses.miss_causes_a_walk,dtlb_stor
 EVENTS_B=mem_load_retired.fb_hit,mem_load_retired.l1_miss,mem_load_retired.l1_hit,mem_load_retired.l2_miss,mem_load_retired.l2_hit,mem_load_retired.l3_miss,mem_load_retired.l3_hit
 
 perf record -e "$EVENTS_B" -e "$EVENTS_A" ${VT_PIDSTR} -o ${OUTDIR}/perf.data
+perf report --stats --stdio ${OUTDIR}/perf.data >  ${OUTDIR}/events.txt
 
 wait ${W_PIDS[*]}
 
