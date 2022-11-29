@@ -33,12 +33,12 @@ cpu_mon(){
 #1 - proc to monitor memory bandwidth of
 spec_mon(){
 	while [ "1" ] ; do
-		sudo pqos -t 1 -i 1 -I -p "mbl:${1};llc:${1}" >> $OUTDIR/mem_llc
+		 pqos -t 1 -i 1 -I -p "mbl:${1};llc:${1}" >> $OUTDIR/mem_llc
 	done
 }
 
 
-sudo pqos -R 
+ pqos -R 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=X86KvmCPU	\
@@ -72,7 +72,7 @@ c_pid=$!
 
 wait $w_pid
 
-sudo kill -KILL $s_pid
-sudo kill -KILL $c_pid
+ kill -KILL $s_pid
+ kill -KILL $c_pid
 
 echo "output directory:${OUTDIR}"
