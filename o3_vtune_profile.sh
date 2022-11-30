@@ -3,10 +3,9 @@ GEM5_DIR=$(pwd)/../gem5
 GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
-#RESTORE=$(pwd)/atomic_cpoint
-
-export VTUNE_WAIT=$(( 1200  ))
-export MON_DELAY=$(( 60 ))
+#RESTORE=$(pwd)/atomic_cpoint 
+export VTUNE_WAIT=$(( 600  ))
+export MON_DELAY=$(( 10 ))
 #CORES=( "1" "2" "3" "4" "5"  )
 CORES=( "1" )
 
@@ -61,11 +60,13 @@ sleep $MON_DELAY
 
 ./bg_killer.sh ${W_PIDS[@]} &
 
-
 EVENTS_A=dtlb_load_misses.stlb_hit,dtlb_load_misses.miss_causes_a_walk,dtlb_store_misses.stlb_hit,dtlb_store_misses.miss_causes_a_walk,iTLB-load-misses,iTLB-loads
 EVENTS_B=mem_load_retired.fb_hit,mem_load_retired.l1_miss,mem_load_retired.l1_hit,mem_load_retired.l2_miss,mem_load_retired.l2_hit,mem_load_retired.l3_miss,mem_load_retired.l3_hit
+EVENTS_C=ITLB_MISSES.MISS_CAUSES_A_WALK,ITLB_MISSES.STLB_HIT,ITLB_MISSES.WALK_ACTIVE,ITLB_MISSES.WALK_COMPLETED,ITLB_MISSES.WALK_COMPLETED_1G,ITLB_MISSES.WALK_COMPLETED_2M_4M,ITLB_MISSES.WALK_COMPLETED_4K,ITLB_MISSES.WALK_PENDING,FRONTEND_RETIRED.ITLB_MISS,ITLB.ITLB_FLUSH
 
-perf record -e "$EVENTS_B" -e "$EVENTS_A" ${VT_PIDSTR} -o ${OUTDIR}/perf.data
+perf record -e "$EVENTS_A,$EVENTS_B,$EVENTS_C" ${VT_PIDSTR} -o ${OUTDIR}/perf.data
+perf report -f -s sample ${OUTDIR}/perf.data >  ${OUTDIR}/events.txt
+
 
 wait ${W_PIDS[*]}
 

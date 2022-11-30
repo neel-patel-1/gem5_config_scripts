@@ -6,6 +6,7 @@ echo "1" |  tee /sys/devices/system/cpu/intel_pstate/no_turbo
  pqos -R
 
 # reset cpu frequency
+echo "userspace" | sudo tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
  cpupower frequency-set -d 3.10GHz -u 3.10GHz
 
 # enable hardware prefetcher

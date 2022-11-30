@@ -99,8 +99,10 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 21.1.0.2
 gem5 compiled Nov 24 2022 15:55:37
-gem5 started Nov 29 2022 03:11:24
-gem5 executing on pollux.ittc.ku.edu, pid 10030
+gem5 started Nov 29 2022 18:51:04
+gem5 executing on pollux.ittc.ku.edu, pid 2413728
 command line: /opt/shared/gem5-learning/configs/../gem5/build/X86/gem5.opt --outdir=parsec_streamcluster_largeinput_4tds_default_2272500000000_simticks_o3 /opt/shared/gem5-learning/gem5/configs/example/se.py --cpu-type=O3CPU --num-cpus=4 --mem-channels=1 --cpu-clock=4GHz --sys-clock=4GHz --mem-type=DDR3_1600_8x8 --mem-channels=1 --mem-size=2GB --caches --l1i_size=32kB --l1i_assoc=2 --l1d_size=64kB --l1d_assoc=2 --l2_size=2MB --l2_assoc=16 --bp-type=BiModeBP --bp-type=BiModeBP --checkpoint-dir=/opt/shared/gem5-learning/configs/spec_mcf_r_test --cmd=/opt/shared/parsec_native/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster --rel-max-tick=2272500000000 '--options=10 20 128 16384 16384 1000 none output.txt 1'
 
 **** REAL SIMULATION ****
+Exiting @ tick 1771743730500 because user interrupt received
+output directory:parsec_streamcluster_largeinput_4tds_default_2272500000000_simticks_o3

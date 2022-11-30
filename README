@@ -11,6 +11,9 @@ Run all cpu types and collect memory bandwidth and cpu utilization for the cpu t
 Run vtune collection script after starting gem5 -- collects 10 min of samples -- make sure the benchmark config runs for 10 min
 ./gem5_vtune_profile.sh <benchmark_config.sh>
 
+Run CPU Frequency Speed Comparison Tests:
+./run_freq_speed.sh <config_file>
+
 
 Other Scripts:
 
