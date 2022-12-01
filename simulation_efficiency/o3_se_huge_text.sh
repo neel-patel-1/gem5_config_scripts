@@ -12,7 +12,7 @@ export MON_DELAY=$(( 10 ))
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=simeff/${OUTDIR}_simeff_huge_data
+OUTDIR=simeff/${OUTDIR}_simeff_huge_text
 CheckPoint=${RESTORE_CPOINT}/
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 

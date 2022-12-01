@@ -42,7 +42,7 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--checkpoint-dir=$Checkpoint \
 					--cmd=${BIN}			\
 					--rel-max-tick=${SIM_TICKS}  \
-					--options="${ARGS}" &
+					--options="${ARGS}"
 
 w_pid=$!
 

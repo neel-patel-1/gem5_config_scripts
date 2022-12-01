@@ -19,8 +19,6 @@ CheckPoint=${RESTORE_CPOINT}/
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
-echo "0" |  tee /sys/devices/system/cpu/intel_pstate/no_turbo
-
 LD_PRELOAD=libhugetlbfs.so \
 LD_LIBRARY_PATH=/usr/local/lib/lib64/:$LD_LIBRARY_PATH \
 HUGETLB_MORECORE=yes \
