@@ -5,21 +5,20 @@ GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
 
-CheckPoint=$(pwd)/spec_mcf_r_test
+export VTUNE_WAIT=$(( 60  ))
+export MON_DELAY=$(( 10 ))
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_1200MHz
+OUTDIR=simeff/${OUTDIR}_simeff_baseline
+CheckPoint=${RESTORE_CPOINT}/
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks_o3
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
-IODLR_USE_EXPLICIT_HP=1 \
-LD_PRELOAD=/usr/lib64/liblppreload.so \
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=O3CPU	\
                     --num-cpus=4               \

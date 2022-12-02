@@ -5,16 +5,17 @@ GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 
 SE_PATH=/opt/shared/gem5-learning/gem5/configs/example/se.py
 
-CheckPoint=$(pwd)/spec_mcf_r_test
+export VTUNE_WAIT=$(( 60  ))
+export MON_DELAY=$(( 10 ))
 
 [ -z "$1" ] && echo "No Source Config File Provided" && exit -1
 source ./default_config.sh
 source ${1}
 [ -z "$OUTDIR" ] && echo "No OUTPUT DIRECTORY Provided" && exit -1
-OUTDIR=${OUTDIR}_1200MHz
+OUTDIR=simeff/${OUTDIR}_perf_simeff_huge_text
+CheckPoint=${RESTORE_CPOINT}/
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks_o3
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
@@ -42,7 +43,22 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--checkpoint-restore=3 \
 					--cmd=${BIN}			\
 					--rel-max-tick=${SIM_TICKS}  \
-					--options="${ARGS}"
+					--options="${ARGS}" &
 
+w_pid=$!
+W_PIDS+=( "${w_pid}" )
 
+for i in ${W_PIDS[@]};
+do
+	VT_PIDSTR+="--pid $i "
+done
 echo "output directory:${OUTDIR}" 
+./bg_killer.sh ${W_PIDS[@]} &
+
+EVENTS_A=dtlb_load_misses.walk_active,dtlb_load_misses.walk_pending,itlb_misses.walk_active
+perf record -e "cpu-cycles,$EVENTS_A" ${VT_PIDSTR} -o ${OUTDIR}/perf.data
+wait ${W_PIDS[*]}
+perf report -f -s sample ${OUTDIR}/perf.data >  ${OUTDIR}/events.txt
+
+
+echo "output directory:${OUTDIR}"
