@@ -14,7 +14,7 @@ SPEC_ARGS="/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/be
 [ ! -f "${SPEC_BIN}" ] && echo "no spec bin" && exit
 
 ./default_config.sh
-sudo wrmsr -a 0x1a4 15
+ wrmsr -a 0x1a4 15
 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\

@@ -20,7 +20,7 @@ OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks_o3
 if [ "$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor)" != "userspace" ]; then
 	echo "not using userspace freq governor -- cannot set freq" && exit -1
 fi
-sudo cpupower frequency-set -d 1.2GHz -u 1.2GHz
+ cpupower frequency-set -d 1.2GHz -u 1.2GHz
 
 
 

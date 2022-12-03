@@ -27,23 +27,23 @@ export SIM_TICKS=$(( 50500000000 * 45 ))  # spec_mcf derived 1H host length
 spec_mon(){
 	OF=gem5_${1}.mem
 	rm -f gem5_${1}.mem
-	sudo pqos -i 1 -I -p "mbl:${1};llc:${1}" -o gem5_${1}.mem >/dev/null
+	 pqos -i 1 -I -p "mbl:${1};llc:${1}" -o gem5_${1}.mem >/dev/null
 }
 
 #BENCHMARK
-sudo pqos -I -R mbaCtrl-on
-sudo pqos -I -a "cos:3=5;" 
-#sudo pqos -I -e "mba_max:3=10" 
-sudo pqos -I -e "llc:3=0x001" 
-#sudo pqos -I -e "l2:3=0x1" 
+ pqos -I -R mbaCtrl-on
+ pqos -I -a "cos:3=5;" 
+# pqos -I -e "mba_max:3=10" 
+ pqos -I -e "llc:3=0x001" 
+# pqos -I -e "l2:3=0x1" 
 
-#sudo pqos -R 
-#sudo pqos -e 'mba_max:1=10;'
-#sudo pqos -a 'cos:1=5'
+# pqos -R 
+# pqos -e 'mba_max:1=10;'
+# pqos -a 'cos:1=5'
 
 
-#sudo rdtset --iface-os -t 'mba_max=10;cpu=5' -c 5 \
-#sudo rdtset --iface-os -t 'l3=0x1;cpu=5' -r 5 -c 5 \
+# rdtset --iface-os -t 'mba_max=10;cpu=5' -c 5 \
+# rdtset --iface-os -t 'l3=0x1;cpu=5' -r 5 -c 5 \
 taskset -c 5 \
 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 				--cpu-type=AtomicSimpleCPU	\
@@ -68,9 +68,9 @@ $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 				--rel-max-tick=${SIM_TICKS}  \
 				--options="${ARGS}"
 
-#sudo pqos -I -a "pid:0=$pid" 
-#sudo pqos -i 1 -I -p "mbl:$pid;llc:$pid" -o gem5_pid.mem >/dev/null
-#sudo pqos -i 1 -I -m "mbl:[0-39];llc:[0-39]" -o system_pqos_llc.mem >/dev/null
-#sudo pqos -i 1 -I -m "mbl:5,25;llc:5,25" -o gem5_core.mem >/dev/null
+# pqos -I -a "pid:0=$pid" 
+# pqos -i 1 -I -p "mbl:$pid;llc:$pid" -o gem5_pid.mem >/dev/null
+# pqos -i 1 -I -m "mbl:[0-39];llc:[0-39]" -o system_pqos_llc.mem >/dev/null
+# pqos -i 1 -I -m "mbl:5,25;llc:5,25" -o gem5_core.mem >/dev/null
 
 echo "output directory:${OUTDIR}"

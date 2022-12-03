@@ -15,7 +15,7 @@ SPEC_ARGS="/home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/be
 
 ./default_config.sh
 
-echo off | sudo tee /sys/devices/system/cpu/smt/control
+echo off |  tee /sys/devices/system/cpu/smt/control
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\

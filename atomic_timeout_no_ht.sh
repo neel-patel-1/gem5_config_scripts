@@ -19,7 +19,7 @@ OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 
 
 
-echo off | sudo tee /sys/devices/system/cpu/smt/control
+echo off |  tee /sys/devices/system/cpu/smt/control
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\

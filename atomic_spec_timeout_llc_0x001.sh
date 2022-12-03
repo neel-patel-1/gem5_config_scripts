@@ -17,9 +17,9 @@ OUTDIR=${OUTDIR}_llc_0x001
 
 
 # set core 5 to use last llc way
-sudo pqos -R 
-sudo pqos -e "llc:1=0x0001;" 
-sudo pqos -a "cos:1=5;" 
+ pqos -R 
+ pqos -e "llc:1=0x0001;" 
+ pqos -a "cos:1=5;" 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\

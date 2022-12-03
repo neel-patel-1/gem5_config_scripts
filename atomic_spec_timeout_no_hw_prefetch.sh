@@ -15,7 +15,7 @@ OUTDIR=${OUTDIR}_no_hw_preftch
 #BENCHMARK
 
 
-sudo wrmsr -a 0x1a4 15
+ wrmsr -a 0x1a4 15
 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\

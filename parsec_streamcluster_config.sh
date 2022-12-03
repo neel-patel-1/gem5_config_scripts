@@ -4,5 +4,5 @@ export ARGS="10 20 128 16384 16384 1000 none output.txt 1"
 export OUTDIR=parsec_streamcluster_largeinput_4tds
 #export SIM_TICKS=50500000000 # 1m20s for MCF_R default
 export SIM_TICKS=$(( 50500000000 * 45 ))  # spec_mcf derived 1H host length
-export MAXTIME=3600 # 5 seconds for testing
+export MAXTIME=2.2725 # 5 seconds for testing
 

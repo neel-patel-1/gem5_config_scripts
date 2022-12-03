@@ -23,9 +23,9 @@ run_stressor(){
 }
 
 # set core 5 to use last llc way
-sudo pqos -R 
-sudo pqos -e "llc:1=0x0001;" 
-sudo pqos -a "cos:1=5;" 
+ pqos -R 
+ pqos -e "llc:1=0x0001;" 
+ pqos -a "cos:1=5;" 
 
 run_stressor
 exit
@@ -53,6 +53,6 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--rel-max-tick=${SIM_TICKS}  \
 					--options="${ARGS}"
 
-pgrep stress-ng | xargs sudo kill -s 2
-sudo kill -s 2 $pid
+pgrep stress-ng | xargs  kill -s 2
+ kill -s 2 $pid
 echo "output directory:${OUTDIR}"
