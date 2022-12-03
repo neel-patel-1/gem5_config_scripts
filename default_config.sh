@@ -6,7 +6,7 @@ echo "1" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
 sudo pqos -R
 
 # reset cpu frequency
-sudo cpupower frequency-set -d 3.10GHz
+sudo cpupower frequency-set -d 3.10GHz -u 3.10GHz
 
 # enable hardware prefetcher
 sudo wrmsr -a 0x1a4 0

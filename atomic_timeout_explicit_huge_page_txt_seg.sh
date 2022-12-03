@@ -13,7 +13,7 @@ source ${1}
 OUTDIR=${OUTDIR}_explicit_huge_txt
 [ -z "$BIN" ] && echo "No Binary Provided" && exit -1
 [ -z "$SIM_TICKS" ] && echo "No SIM_TICKS SPECIFIED" && exit -1 
-OUTDIR=${OUTDIR}_explicit_huge_txt_${SIM_TICKS}_simticks
+OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 [ -z "$ARGS" ] && echo "No Binary ARGUMENTS" && exit -1
 #BENCHMARK
 
@@ -46,7 +46,7 @@ taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--bp-type=BiModeBP			\
 					--checkpoint-dir=$CheckPoint \
 					--cmd=${BIN}			\
-					--rel-max-tick=50500000000  \
+					--rel-max-tick=${SIM_TICKS}  \
 					--options="${ARGS}"
 
 echo "output directory:${OUTDIR}"

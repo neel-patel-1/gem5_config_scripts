@@ -21,7 +21,7 @@ $GEM5_EXE --outdir=$OutputDir $FS_CONFIG\
                     --disk=$IMG                 		\
                     --bootscript=$SCRIPT        		\
                     --bootloader=$Bootld 			\
-                    --cpu=o3				\
+                    --cpu=atomic				\
                     --num-cores=4                               \
 		    --checkpoint_dir=$CheckPoint		\
 		    --restore
