@@ -1,0 +1,154 @@
+# AMPLXE_PERF_STAT
+# hostname : castor.ittc.ku.edu
+# os release : 5.13.0-44-generic
+# arch : x86_64
+# cpuid : GenuineIntel,6,85,7
+# cpudesc : Intel(R) Xeon(R) Gold 6242R CPU @ 3.10GHz
+# total memory : 97487544 kB
+# nrcpus online : 40
+# nrcpus avail : 40
+# sibling cores : 0-39
+# sibling threads : 0,20
+# sibling threads : 1,21
+# sibling threads : 2,22
+# sibling threads : 3,23
+# sibling threads : 4,24
+# sibling threads : 5,25
+# sibling threads : 6,26
+# sibling threads : 7,27
+# sibling threads : 8,28
+# sibling threads : 9,29
+# sibling threads : 10,30
+# sibling threads : 11,31
+# sibling threads : 12,32
+# sibling threads : 13,33
+# sibling threads : 14,34
+# sibling threads : 15,35
+# sibling threads : 16,36
+# sibling threads : 17,37
+# sibling threads : 18,38
+# sibling threads : 19,39
+# process id : 68521
+;;1390753211;0
+;;1413538124;1
+;;1719019281;2
+;;11616984;3
+;;4240396;4
+;;1481350268;5
+;;328456552;6
+;;537874795;7
+;;384708073;8
+;;312750233;9
+;;41700946;10
+;;18727151;11
+;;782795974;12
+;;14858171;13
+;;1805023708;14
+;;<not counted>;15
+;;1365609;16
+;;1107802;17
+;;69146837;18
+;;208227591;19
+;;93184603;20
+;;<not counted>;21
+;;<not counted>;22
+;;131303516;23
+;;<not counted>;24
+;;<not counted>;25
+;;<not counted>;26
+;;<not counted>;27
+;;<not counted>;28
+;;<not counted>;29
+;;<not counted>;30
+;;228147286;31
+;;512523835;32
+;;1267577061;33
+;;26377939;34
+;;92242851;35
+;;<not counted>;36
+;;<not counted>;37
+;;<not counted>;38
+;;0;39
+;;0;40
+;;0;41
+;;130791;42
+;;<not counted>;43
+;;<not counted>;44
+;;<not counted>;45
+;;<not counted>;46
+;;12856523;47
+;;5544843;48
+;;6606225;49
+;;8194712;50
+;;<not counted>;51
+;;1234791;52
+;;310003702;53
+;;3360254;54
+;;1291703;55
+;;41546;56
+;;<not counted>;57
+;;<not counted>;58
+;;<not counted>;59
+;;<not counted>;60
+;;13859;61
+;;2108429;62
+;;174007;63
+;;40647;64
+;;48221;65
+;;<not counted>;66
+;;<not counted>;67
+;;<not counted>;68
+;;<not counted>;69
+;;0;70
+;;0;71
+;;0;72
+;;868922;73
+;;<not counted>;74
+;;<not counted>;75
+;;<not counted>;76
+;;<not counted>;77
+;;0;78
+;;0;79
+;;2822370;80
+;;3825658;81
+;;<not counted>;82
+;;<not counted>;83
+;;<not counted>;84
+;;<not counted>;85
+;;<not counted>;86
+;;0;87
+;;0;88
+;;0;89
+;;0;90
+;;<not counted>;91
+;;<not counted>;92
+;;<not counted>;93
+;;<not counted>;94
+;;0;95
+;;312872777;96
+;;347359135;97
+;;502912799;98
+;;537223763;99
+;;529942066;100
+;;<not counted>;101
+;;<not counted>;102
+;;184755382;103
+;;2537269535;104
+;;2203646137;105
+;;1594589183;106
+;;<not counted>;107
+;;<not counted>;108
+;;<not counted>;109
+;;<not counted>;110
+;;<not counted>;111
+;;761031098;112
+;;0;113
+;;55382904;114
+;;1437154311;115
+;;<not counted>;116
+;;<not counted>;117
+;;<not counted>;118
+;;0;119
+;;64285;120
+;;0;121
+;;44540;122

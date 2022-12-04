@@ -1,0 +1,142 @@
+Elapsed Time: 98.927s
+    Clockticks: 11,898,323,342,312
+    Instructions Retired: 20,019,504,972,595
+    CPI Rate: 0.594
+    MUX Reliability: 0.998
+    Retiring: 82.2% of Pipeline Slots
+     | A high fraction of pipeline slots was utilized by useful work. While the
+     | goal is to make this metric value as big as possible, a high Retiring
+     | value for non-vectorized code could prompt you to consider code
+     | vectorization. Vectorization enables doing more computations without
+     | significantly increasing the number of instructions, thus improving the
+     | performance. Note that this metric value may be highlighted due to
+     | Microcode Sequencer (MS) issue, so the performance can be improved by
+     | avoiding using the MS.
+     |
+        Light Operations: 81.1% of Pipeline Slots
+         | CPU retired light-weight operations (ones which require no more than
+         | one uop) in a significant fraction of cycles. This correlates with
+         | total number of instructions used by the program. Optimum value of
+         | uops-per-instruction ratio is 1. While this is the most desirable
+         | metric, high values can also provide opportunities for performance
+         | optimizations.
+         |
+            FP Arithmetic: 0.0% of uOps
+                FP x87: 0.0% of uOps
+                FP Scalar: 0.0% of uOps
+                FP Vector: 0.0% of uOps
+            Memory Operations: 25.3% of Pipeline Slots
+             | For a significant fraction of pipeline slots the CPU was retiring
+             | memory operations - uops for memory load or store accesses.
+             |
+            Fused Instructions: 2.9% of Pipeline Slots
+            Non Fused Branches: 0.8% of Pipeline Slots
+            Nop Instructions: 0.4% of Pipeline Slots
+            Other: 51.8% of Pipeline Slots
+             | This metric represents a non-floating-point (FP) uop fraction the
+             | CPU has executed. If your application has no FP operations, this
+             | is likely to be the biggest fraction.
+             |
+        Heavy Operations: 1.1% of Pipeline Slots
+            Microcode Sequencer: 0.5% of Pipeline Slots
+                Assists: 0.0% of Pipeline Slots
+                CISC: 0.5% of Pipeline Slots
+    Front-End Bound: 9.1% of Pipeline Slots
+        Front-End Latency: 4.1% of Pipeline Slots
+            ICache Misses: 0.3% of Clockticks
+            ITLB Overhead: 0.1% of Clockticks
+            Branch Resteers: 2.2% of Clockticks
+                Mispredicts Resteers: 1.9% of Clockticks
+                Clears Resteers: 0.0% of Clockticks
+                Unknown Branches: 0.3% of Clockticks
+            DSB Switches: 2.3% of Clockticks
+            Length Changing Prefixes: 0.0% of Clockticks
+            MS Switches: 0.5% of Clockticks
+        Front-End Bandwidth: 5.0% of Pipeline Slots
+            Front-End Bandwidth MITE: 6.7% of Pipeline Slots
+            Front-End Bandwidth DSB: 3.0% of Pipeline Slots
+            Front-End Bandwidth LSD: 0.0% of Pipeline Slots
+            (Info) DSB Coverage: 43.6%
+            (Info) LSD Coverage: 0.0%
+            (Info) DSB Misses Cost: 5.3% of Pipeline Slots
+    Bad Speculation: 4.7% of Pipeline Slots
+        Branch Mispredict: 4.7% of Pipeline Slots
+        Machine Clears: 0.0% of Pipeline Slots
+    Back-End Bound: 4.0% of Pipeline Slots
+        Memory Bound: 0.7% of Pipeline Slots
+            L1 Bound: 9.1% of Clockticks
+                DTLB Overhead: 100.0% of Clockticks
+                    Load STLB Hit: 100.0% of Clockticks
+                    Load STLB Miss: 0.1% of Clockticks
+                Loads Blocked by Store Forwarding: 0.1% of Clockticks
+                Lock Latency: 0.0% of Clockticks
+                Split Loads: 0.0% of Clockticks
+                4K Aliasing: 0.1% of Clockticks
+                FB Full: 2.0% of Clockticks
+            L2 Bound: 0.9% of Clockticks
+            L3 Bound: 0.4% of Clockticks
+                Contested Accesses: 0.0% of Clockticks
+                Data Sharing: 0.0% of Clockticks
+                L3 Latency: 0.6% of Clockticks
+                SQ Full: 0.3% of Clockticks
+            DRAM Bound: 2.6% of Clockticks
+                Memory Bandwidth: 2.2% of Clockticks
+                Memory Latency: 6.2% of Clockticks
+                    Local DRAM: 4.6% of Clockticks
+                    Remote DRAM: 0.0% of Clockticks
+                    Remote Cache: 0.0% of Clockticks
+            Store Bound: 0.2% of Clockticks
+                Store Latency: 3.0% of Clockticks
+                False Sharing: 0.0% of Clockticks
+                Split Stores: 0.0% of Clockticks
+                DTLB Store Overhead: 1.8% of Clockticks
+                    Store STLB Hit: 1.7% of Clockticks
+                    Store STLB Hit: 0.1% of Clockticks
+        Core Bound: 3.3% of Pipeline Slots
+            Divider: 0.2% of Clockticks
+            Port Utilization: 58.7% of Clockticks
+                Cycles of 0 Ports Utilized: 4.3% of Clockticks
+                    Serializing Operations: 0.1% of Clockticks
+                        Slow Pause: 0.0% of Clockticks
+                    Mixing Vectors: 100.0% of Clockticks
+                Cycles of 1 Port Utilized: 7.4% of Clockticks
+                Cycles of 2 Ports Utilized: 16.2% of Clockticks
+                Cycles of 3+ Ports Utilized: 71.6% of Clockticks
+                    ALU Operation Utilization: 49.0% of Clockticks
+                        Port 0: 45.4% of Clockticks
+                        Port 1: 49.4% of Clockticks
+                        Port 5: 46.9% of Clockticks
+                        Port 6: 54.4% of Clockticks
+                    Load Operation Utilization: 40.7% of Clockticks
+                        Port 2: 47.6% of Clockticks
+                        Port 3: 48.6% of Clockticks
+                    Store Operation Utilization: 26.5% of Clockticks
+                        Port 4: 26.5% of Clockticks
+                        Port 7: 11.8% of Clockticks
+                Vector Capacity Usage (FPU): 6.6%
+    Average CPU Frequency: 3.093 GHz
+    Total Thread Count
+    Paused Time: 0s
+CPU Utilization (%)
+    Physical Core Utilization: 97.4% (19.476 out of 20)
+    Logical Core Utilization: 97.2% (38.889 out of 40)
+Collection and Platform Info
+    Application Command Line: ./native_spec/x264_40.sh 
+    Operating System: 5.13.0-44-generic DISTRIB_ID=Ubuntu DISTRIB_RELEASE=20.04 DISTRIB_CODENAME=focal DISTRIB_DESCRIPTION="Ubuntu 20.04.5 LTS"
+    Computer Name: castor.ittc.ku.edu
+    Result Size: 3.9 MB 
+    Collection start time: 03:00:46 04/12/2022 UTC
+    Collection stop time: 03:02:25 04/12/2022 UTC
+    Collector Type: Driverless Perf per-process counting
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Cascadelake
+        Frequency: 3.093 GHz
+        Logical CPU Count: 40
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
