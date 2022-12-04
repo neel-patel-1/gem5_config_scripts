@@ -2,10 +2,11 @@
 VTUNE=/opt/intel/oneapi/vtune/2022.4.1/bin64/vtune
 
 [ ! -f "$1" ] && echo "specify application start script" && exit
-[ ! -f "$2" ] && echo "specify an output directory" && exit
+
+outdir=./native_res/$( basename ${1})_vtune$(printf '%(%H-%M-%S_%d-%m-%Y)T')
 
 $VTUNE -collect uarch-exploration \
-	-result-dir native_res/${1}_vtune$(printf '%(%H:%M:%S_%d-%m-%Y)T') \
+	-result-dir ${outdir} \
 	-knob collect-frontend-bound=true \
 	-knob collect-bad-speculation=true \
 	-knob collect-memory-bound=true \
@@ -14,4 +15,6 @@ $VTUNE -collect uarch-exploration \
 	-knob collect-memory-bandwidth=true \
 	-knob pmu-collection-mode=summary \
 	-- \
-	${1}
+	${1} 
+
+$VTUNE -report summary -format=text -r $outdir | tee $outdir/summary
