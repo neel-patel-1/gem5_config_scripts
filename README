@@ -14,6 +14,12 @@ Run vtune collection script after starting gem5 -- collects 10 min of samples --
 Run CPU Frequency Speed Comparison Tests:
 ./run_freq_speed.sh <config_file>
 
+Comparing Speed of O3 CPU under different System-Level Configurations in simulation_efficiency/
+- use "simulation_efficiency/checkpoints.sh <config_file>" to generate checkpoints for the benchmark using atomic cpu
+- run "./simulation_efficiency/run_all_sim_eff.sh <config_file>" to compare all system level configurations (check sim_eff dir for results)
+
+Detailed CPU Memory Bandwidth Measurement
+- run "./o3_llc_limit/o3_se_default.sh <benchmark_config.sh>
 
 Other Scripts:
 
