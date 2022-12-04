@@ -1,0 +1,520 @@
+
+real	0m0.001s
+user	0m0.001s
+
+sys	0m0.000s
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+
+real	0m0.001s
+real	0m0.001s
+user	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+./native_spec/x264_40.sh: line 3: 70989 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.782s
+sys	0m0.224s
+./native_spec/x264_40.sh: line 3: 70995 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.804s
+sys	0m0.196s
+./native_spec/x264_40.sh: line 3: 70987 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.748s
+sys	0m0.256s
+./native_spec/x264_40.sh: line 3: 70981 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.013s
+user	0m6.782s
+sys	0m0.224s
+./native_spec/x264_40.sh: line 3: 71016 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.808s
+sys	0m0.192s
+./native_spec/x264_40.sh: line 3: 70993 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.744s
+sys	0m0.216s
+./native_spec/x264_40.sh: line 3: 71026 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.780s
+sys	0m0.224s
+./native_spec/x264_40.sh: line 3: 70985 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.013s
+user	0m6.799s
+sys	0m0.208s
+./native_spec/x264_40.sh: line 3: 71003 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+./native_spec/x264_40.sh: line 3: 71001 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.749s
+sys	0m0.260s
+
+real	0m7.012s
+user	0m6.752s
+sys	0m0.244s
+./native_spec/x264_40.sh: line 3: 71020 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.789s
+sys	0m0.220s
+./native_spec/x264_40.sh: line 3: 71036 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.775s
+sys	0m0.232s
+./native_spec/x264_40.sh: line 3: 70991 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.014s
+user	0m6.738s
+sys	0m0.212s
+./native_spec/x264_40.sh: line 3: 71034 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.751s
+sys	0m0.252s
+./native_spec/x264_40.sh: line 3: 70980 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.015s
+user	0m6.729s
+sys	0m0.236s
+./native_spec/x264_40.sh: line 3: 71028 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+./native_spec/x264_40.sh: line 3: 71012 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.767s
+sys	0m0.236s
+
+real	0m7.013s
+user	0m6.744s
+sys	0m0.252s
+./native_spec/x264_40.sh: line 3: 71024 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.752s
+sys	0m0.260s
+./native_spec/x264_40.sh: line 3: 71048 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.794s
+sys	0m0.216s
+./native_spec/x264_40.sh: line 3: 71004 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.014s
+user	0m6.754s
+sys	0m0.256s
+./native_spec/x264_40.sh: line 3: 71054 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.010s
+user	0m6.760s
+sys	0m0.248s
+./native_spec/x264_40.sh: line 3: 71018 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+./native_spec/x264_40.sh: line 3: 71042 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.013s
+user	0m6.767s
+sys	0m0.244s
+
+real	0m7.012s
+user	0m6.782s
+sys	0m0.228s
+./native_spec/x264_40.sh: line 3: 71044 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.758s
+sys	0m0.248s
+./native_spec/x264_40.sh: line 3: 71030 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.769s
+sys	0m0.241s
+./native_spec/x264_40.sh: line 3: 70998 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.015s
+user	0m6.774s
+sys	0m0.240s
+./native_spec/x264_40.sh: line 3: 71040 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+./native_spec/x264_40.sh: line 3: 71038 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+./native_spec/x264_40.sh: line 3: 70983 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.736s
+sys	0m0.260s
+
+real	0m7.012s
+user	0m6.741s
+sys	0m0.231s
+
+real	0m7.015s
+user	0m6.774s
+sys	0m0.224s
+./native_spec/x264_40.sh: line 3: 71053 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.749s
+./native_spec/x264_40.sh: line 3: 71007 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+sys	0m0.256s
+./native_spec/x264_40.sh: line 3: 71032 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.014s
+user	0m6.710s
+sys	0m0.292s
+./native_spec/x264_40.sh: line 3: 71009 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.719s
+sys	0m0.252s
+
+real	0m7.014s
+user	0m6.729s
+sys	0m0.264s
+./native_spec/x264_40.sh: line 3: 71010 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.014s
+user	0m6.735s
+sys	0m0.252s
+./native_spec/x264_40.sh: line 3: 70997 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.015s
+user	0m6.681s
+./native_spec/x264_40.sh: line 3: 71050 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+sys	0m0.256s
+
+real	0m7.011s
+user	0m6.765s
+sys	0m0.240s
+./native_spec/x264_40.sh: line 3: 71014 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.014s
+user	0m6.741s
+sys	0m0.228s
+./native_spec/x264_40.sh: line 3: 71046 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+./native_spec/x264_40.sh: line 3: 71022 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.012s
+user	0m6.724s
+sys	0m0.244s
+
+real	0m7.013s
+user	0m6.727s
+sys	0m0.216s
+./native_spec/x264_40.sh: line 3: 71052 Killed                  /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/build/build_base_mytest-m64.0000/x264_r --pass 1 --stats x264_stats.log --bitrate 1000 --frames 1000 -o /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny_New.264 /home/n869p538/wrk_offloadenginesupport/async_nginx_build/cpu_2017/benchspec/CPU/525.x264_r/run/run_base_refrate_mytest-m64.0000/BuckBunny.yuv 1280x720 > run_000-1000_x264_r_base.mytest-m64_x264_pass1.out 2>> run_000-1000_x264_r_base.mytest-m64_x264_pass1.err
+
+real	0m7.011s
+user	0m6.778s
+sys	0m0.224s
+
+real	1m38.170s
+user	1m37.672s
+sys	0m0.432s
+
+real	1m38.200s
+user	1m37.861s
+sys	0m0.328s
+
+real	1m38.204s
+user	1m37.868s
+sys	0m0.332s
+
+real	1m38.217s
+user	1m37.845s
+sys	0m0.340s
+
+real	1m38.216s
+user	1m37.830s
+sys	0m0.372s
+
+real	1m38.221s
+user	1m37.853s
+sys	0m0.348s
+
+real	1m38.222s
+user	1m37.861s
+sys	0m0.340s
+
+real	1m38.244s
+user	1m37.776s
+sys	0m0.364s
+
+real	1m38.263s
+user	1m37.916s
+sys	0m0.288s
+
+real	1m38.269s
+user	1m37.987s
+sys	0m0.272s
+
+real	1m38.281s
+user	1m38.019s
+sys	0m0.252s
+
+real	1m38.287s
+user	1m37.870s
+sys	0m0.328s
+
+real	1m38.294s
+user	1m37.941s
+sys	0m0.304s
+
+real	1m38.290s
+user	1m37.931s
+sys	0m0.320s
+
+real	1m38.324s
+user	1m38.052s
+sys	0m0.256s
+
+real	1m38.328s
+user	1m38.026s
+sys	0m0.288s
+
+real	1m38.346s
+user	1m37.918s
+sys	0m0.328s
+
+real	1m38.358s
+user	1m37.774s
+sys	0m0.400s
+
+real	1m38.381s
+user	1m37.936s
+sys	0m0.304s
+
+real	1m38.396s
+user	1m38.020s
+sys	0m0.288s
+
+real	1m38.500s
+user	1m38.135s
+sys	0m0.360s
+
+real	1m38.502s
+user	1m38.181s
+sys	0m0.316s
+
+real	1m38.508s
+user	1m38.162s
+sys	0m0.332s
+
+real	1m38.519s
+user	1m38.173s
+sys	0m0.328s
+
+real	1m38.522s
+user	1m38.193s
+sys	0m0.316s
+
+real	1m38.524s
+user	1m37.938s
+sys	0m0.387s
+
+real	1m38.552s
+user	1m38.118s
+sys	0m0.364s
+
+real	1m38.611s
+user	1m38.085s
+sys	0m0.400s
+
+real	1m38.648s
+user	1m38.297s
+sys	0m0.344s
+
+real	1m38.654s
+user	1m38.271s
+sys	0m0.368s
+
+real	1m38.686s
+user	1m38.278s
+sys	0m0.360s
+
+real	1m38.683s
+user	1m38.355s
+sys	0m0.316s
+
+real	1m38.694s
+user	1m38.302s
+sys	0m0.380s
+
+real	1m38.700s
+user	1m38.330s
+sys	0m0.356s
+
+real	1m38.699s
+user	1m38.197s
+sys	0m0.315s
+
+real	1m38.700s
+user	1m38.333s
+sys	0m0.352s
+
+real	1m38.705s
+user	1m38.359s
+sys	0m0.340s
+
+real	1m38.894s
+user	1m38.507s
+sys	0m0.376s
+
+real	1m38.903s
+user	1m38.169s
+sys	0m0.247s
+
+real	1m38.915s
+user	1m38.537s
+sys	0m0.328s
