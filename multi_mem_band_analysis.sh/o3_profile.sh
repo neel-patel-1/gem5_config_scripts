@@ -16,7 +16,6 @@ OUTDIR=${OUTDIR}_o3cpu_gem5_monitoring
 [ -z "$MAXTIME" ] && echo "No MAX Hosttime Specified" && exit -1
 
 mkdir -p $OUTDIR
-rm -f $OUTDIR/*
 
 #1 - proc to monitor cpu utilization
 cpu_mon(){
@@ -33,12 +32,12 @@ cpu_mon(){
 #1 - proc to monitor memory bandwidth of
 spec_mon(){
 	while [ "1" ] ; do
-		sudo pqos -t 1 -i 1 -I -p "mbl:${1};llc:${1}" >> $OUTDIR/mem_llc
+		 pqos -t 1 -i 1 -I -p "mbl:${1};llc:${1}" >> $OUTDIR/mem_llc
 	done
 }
 
 
-sudo pqos -R 
+ pqos -R 
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=O3CPU	\
@@ -72,7 +71,12 @@ c_pid=$!
 
 wait $w_pid
 
+<<<<<<< HEAD
 sudo kill -KILL $s_pid
 sudo kill -KILL $c_pid
+=======
+ kill -KILL $s_pid
+ kill -KILL $c_pid
+>>>>>>> 27a0b444200f5fd559c5ed151b69d11ec9e46c86
 
 echo "output directory:${OUTDIR}"

@@ -19,7 +19,7 @@ OUTDIR=${OUTDIR}_${SIM_TICKS}_simticks
 
 
 
-echo "0" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+echo "0" |  tee /sys/devices/system/cpu/intel_pstate/no_turbo
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\
