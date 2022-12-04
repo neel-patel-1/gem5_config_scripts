@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ./simulation_efficiency/o3_se_default.sh parsec_streamcluster_config.sh
 ./simulation_efficiency/o3_se_huge_data.sh parsec_streamcluster_config.sh
 ./simulation_efficiency/o3_se_huge_text.sh parsec_streamcluster_config.sh
 ./simulation_efficiency/o3_se_turbo.sh parsec_streamcluster_config.sh
+=======
+>>>>>>> a74018e7cb666d9383d2c07bbe189c070bd22799

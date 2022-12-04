@@ -43,7 +43,12 @@ c_pid=$!
 
 wait $w_pid
 
+<<<<<<< HEAD
+sudo kill -KILL $s_pid
+sudo kill -KILL $c_pid
+=======
  kill -KILL $s_pid
  kill -KILL $c_pid
+>>>>>>> 27a0b444200f5fd559c5ed151b69d11ec9e46c86
 
 echo "output directory:${OUTDIR}"

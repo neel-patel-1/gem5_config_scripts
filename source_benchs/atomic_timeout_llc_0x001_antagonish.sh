@@ -28,7 +28,6 @@ run_stressor(){
  pqos -a "cos:1=5;" 
 
 run_stressor
-exit
 
 taskset -c 5 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
                     --cpu-type=AtomicSimpleCPU	\

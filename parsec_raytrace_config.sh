@@ -5,4 +5,3 @@ export OUTDIR=raytrace
 export SIM_TICKS=50500000000 
 export MAXTIME=2.2725 # 5 seconds for testing
 export RESTORE_CPOINT=raytrace_cpoints/
-

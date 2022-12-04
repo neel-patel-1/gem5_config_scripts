@@ -16,7 +16,6 @@ OUTDIR=${OUTDIR}_kvm_cpu_gem5_monitoring
 [ -z "$MAXTIME" ] && echo "No MAX Hosttime Specified" && exit -1
 
 mkdir -p $OUTDIR
-rm -f $OUTDIR/*
 
 #1 - proc to monitor cpu utilization
 cpu_mon(){
