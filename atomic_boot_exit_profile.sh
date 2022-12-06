@@ -1,0 +1,41 @@
+#!/bin/bash
+./pmu-tools/ocperf stat \
+	-e 'icache_64b.iftag_hit' \
+	-e 'icache_64b.iftag_miss' \
+	-e"L1-icache-load-misses" \
+	-e"LLC-loads" \
+	-e"LLC-load-misses" \
+	-e"LLC-stores" \
+	-e"LLC-store-misses" \
+	-e"frontend_retired.itlb_miss" \
+	-e"frontend_retired.l1i_miss" \
+	-e"frontend_retired.l2_miss" \
+	-e"frontend_retired.stlb_miss" \
+	-e"icache_64b.iftag_stall" \
+	-e"cpu_clk_unhalted.thread" \
+	-e"l2_rqsts.miss" \
+	-e"l2_rqsts.references" \
+	-e"l2_rqsts.all_demand_miss" \
+	-e"l2_rqsts.all_demand_references" \
+	-e"cycle_activity.stalls_total" \
+	-e"dtlb_load_misses.miss_causes_a_walk" \
+	-e"dtlb_load_misses.stlb_hit" \
+	-e"dtlb_store_misses.miss_causes_a_walk" \
+	-e"dtlb_store_misses.stlb_hit" \
+	-e"itlb_misses.miss_causes_a_walk" \
+	-e"itlb_misses.stlb_hit" \
+	-e"mem-loads" \
+	-e"mem_inst_retired.all_loads" \
+	-e"mem-stores" \
+	-e"mem_inst_retired.all_stores" \
+	-e"mem_inst_retired.stlb_miss_loads" \
+	-e"mem_inst_retired.stlb_miss_stores" \
+	-e"mem_load_retired.fb_hit" \
+	-e"mem_load_retired.l1_hit" \
+	-e"mem_load_retired.l1_miss" \
+	-e"mem_load_retired.l2_hit" \
+	-e"mem_load_retired.l2_miss" \
+	-e"mem_load_retired.l3_hit" \
+	-e"mem_load_retired.l3_miss" \
+	-e"inst_retired.any" \
+	./run-single1-a.sh default_atomic_boot_exit_events

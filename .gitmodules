@@ -1,3 +1,6 @@
 [submodule "iodlr"]
 	path = iodlr
 	url = https://github.com/intel/iodlr.git
+[submodule "pmu-tools"]
+	path = pmu-tools
+	url = https://github.com/andikleen/pmu-tools.git

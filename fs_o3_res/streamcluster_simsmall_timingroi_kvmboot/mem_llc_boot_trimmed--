@@ -1,0 +1,1975 @@
+1)monitoring 100957
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.47       4k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.79      62k      9984.0       120.9         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.65     126k     20176.0       187.9         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   2.10      31k     21736.0        54.8         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     21216.0         1.0         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.42      12k     22048.0        17.3         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     22048.0         0.0         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.38      11k     22568.0        13.2         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.20       1k     22256.0         0.0         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.78      13k     23088.0        31.5         0.0
+TIME 2022-12-04 11:48:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.35       0k     21944.0         7.1         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.54       1k       312.0         0.0         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22       6k      2496.0        32.5         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.21       5k      3536.0        18.3         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       4k      4160.0        15.2         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.23       4k      4576.0        14.2         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       4k      4784.0        13.2         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22       4k      5512.0        18.3         0.0
+TIME 2022-12-04 11:48:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22       4k      5928.0        16.2         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.21       3k      6344.0         8.1         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.18       2k      6760.0         8.1         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.19       2k      6864.0        17.3         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.21       2k      6968.0        14.2         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.20       2k      7072.0        11.2         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25       5k      7488.0        22.3         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       5k      8216.0        21.3         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       4k      8112.0        24.4         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.19       5k      6656.0        52.8         0.0
+TIME 2022-12-04 11:48:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22       4k      7176.0        20.3         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.13       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       4k       832.0        24.4         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       5k      2080.0        19.3         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       5k      2704.0        19.3         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27       4k      3224.0        12.2         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.23       4k      4368.0        26.4         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.20       3k      5304.0        24.4         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.67      39k      8008.0        24.4         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k      8008.0         0.0         0.0
+TIME 2022-12-04 11:48:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k      8008.0         0.0         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.64       1k      8320.0         2.0         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k      8320.0         0.0         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.61       0k      8840.0         5.1         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.00      11k     12064.0        72.1         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     16848.0       193.0         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     20176.0       213.3         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     22464.0       218.4         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     23712.0       215.3         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      44k     24856.0       225.5         0.0
+TIME 2022-12-04 11:48:12
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      42k     23816.0       207.2         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.23       0k         0.0         3.0         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k      7384.0       159.5         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     13624.0       159.5         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26      41k     17056.0       205.2         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     19552.0       188.9         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25      41k     22152.0       225.5         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     23608.0       238.7         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     24960.0       179.8         2.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      42k     25272.0       209.2         0.0
+TIME 2022-12-04 11:48:13
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     24960.0       211.2         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     25272.0       205.2         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     25168.0       222.4         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     25896.0       214.3         3.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     26520.0       286.4         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     26936.0       225.5         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      42k     27248.0       214.3         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     27560.0       280.3         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     27976.0       234.6         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     28184.0       214.3         0.0
+TIME 2022-12-04 11:48:14
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     27040.0       230.5         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.23       0k         0.0         2.0         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      33k      5928.0       118.8         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      31k     10712.0        94.5         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     17160.0       189.9         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     21216.0       207.2         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      41k     23400.0       228.5         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     24232.0       224.5         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      40k     24648.0       210.2         2.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     25168.0       220.4         0.0
+TIME 2022-12-04 11:48:15
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      25k     24024.0       183.8         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     24856.0       253.9         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26       9k     24960.0        59.9         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      20k     24856.0        89.4         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     26312.0       226.5         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     26624.0       242.7         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      40k     27040.0       218.4         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     27456.0       230.5         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     27560.0       236.6         0.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26      42k     27768.0       209.2         1.0
+TIME 2022-12-04 11:48:16
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     26624.0       234.6         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.20       0k         0.0         2.0         0.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k      7904.0       147.3         0.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.19      22k     12896.0        91.4         0.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.19      18k     16952.0        96.5         0.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      33k     21528.0       189.9         0.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     22568.0       238.7         1.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      41k     23608.0       240.7         2.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      43k     24336.0       254.9         0.0
+TIME 2022-12-04 11:48:17
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      42k     25480.0       251.9         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     25480.0       272.2         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     26312.0       217.3         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      42k     27560.0       241.7         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     28600.0       196.0         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     28912.0       215.3         1.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     29536.0       236.6         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     29848.0       234.6         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     30160.0       231.6         0.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26      42k     29952.0       241.7         3.0
+TIME 2022-12-04 11:48:18
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      42k     30160.0       236.6         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22       0k         0.0         1.0         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      43k      6240.0       139.1         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      42k     12688.0       149.3         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      40k     18408.0       185.9         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     22256.0       209.2         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     24336.0       242.7         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      40k     25896.0       254.9         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     26520.0       247.8         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     27664.0       200.1         0.0
+TIME 2022-12-04 11:48:19
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      40k     27144.0       271.2         2.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      40k     27664.0       235.6         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26      41k     27768.0       236.6         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     28288.0       266.1         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      41k     28704.0       183.8         4.1
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      40k     29328.0       229.5         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     29016.0       267.1         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      36k     28808.0       257.0         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     28392.0         4.1         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     28392.0         0.0         0.0
+TIME 2022-12-04 11:48:20
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      29k     27768.0       146.2         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k      7488.0       166.6         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     15392.0       163.5         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      14k     17472.0        86.3         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     17472.0         0.0         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     17472.0         0.0         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      29k     20176.0       111.7         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     23400.0       215.3         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      42k     24856.0       258.0         0.0
+TIME 2022-12-04 11:48:21
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      36k     25064.0       173.7         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25      27k     25792.0       158.4         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26      32k     26624.0       194.0         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     26624.0         0.0         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       9k     26832.0        45.7         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      32k     27768.0       160.5         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24      18k     27872.0       108.7         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22      18k     28288.0       106.6         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      42k     27560.0       267.1         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      43k     28392.0       235.6         0.0
+TIME 2022-12-04 11:48:22
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      42k     27456.0       291.5         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.21       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      43k      8424.0       157.4         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      42k     15808.0       190.9         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     20696.0       182.8         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     23088.0       186.9         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      42k     25168.0       272.2         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      31k     26000.0       158.4         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29       9k     26416.0        39.6         0.0
+TIME 2022-12-04 11:48:23
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     27352.0       247.8         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     27144.0       213.3         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     27352.0       237.7         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      41k     28496.0       248.8         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      32k     28392.0       210.2         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      24k     28496.0       129.0         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     28600.0       301.6         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     29016.0       245.8         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     29640.0       216.3         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     29952.0       219.4         0.0
+TIME 2022-12-04 11:48:24
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      41k     30160.0       241.7         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       0k         0.0         1.0         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      41k      6864.0       143.2         1.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     15808.0       176.7         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      39k     21216.0       179.8         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     24024.0       216.3         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     25688.0       212.3         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     26416.0       242.7         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      35k     26624.0       180.8         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     27456.0       200.1         0.0
+TIME 2022-12-04 11:48:25
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      23k     27560.0       167.6         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     27144.0       226.5         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     28080.0       236.6         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     28912.0       248.8         1.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     29224.0       255.9         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     29432.0       199.1         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     29744.0       226.5         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     29744.0       234.6         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     29744.0       243.8         2.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      38k     30160.0       255.9         0.0
+TIME 2022-12-04 11:48:26
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     30056.0       196.0         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k      9152.0       181.8         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     16744.0       175.7         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     21528.0       185.9         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     24752.0       243.8         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     26000.0       237.7         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     26832.0       279.3         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22      20k     27352.0       168.6         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.15      17k     27248.0       100.5         0.0
+TIME 2022-12-04 11:48:27
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      33k     26832.0       237.7         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     27768.0       232.6         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     28080.0       246.8         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     28808.0       283.4         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     29224.0       245.8         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     29744.0       273.2         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     29952.0       276.2         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     30576.0       237.7         2.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     30680.0       263.0         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     30680.0       253.9         0.0
+TIME 2022-12-04 11:48:28
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     29848.0       270.2         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      37k      7696.0       141.2         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     15496.0       159.5         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      38k     21008.0       219.4         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     22984.0       212.3         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     21632.0       283.4         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     21736.0       226.5         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     21736.0       235.6         0.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     22776.0       213.3         1.0
+TIME 2022-12-04 11:48:29
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     23400.0       260.0         1.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     24856.0       217.3         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     26000.0       246.8         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     27248.0       195.0         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     27976.0       219.4         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     28080.0       240.7         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     28288.0       228.5         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      39k     29120.0       208.2         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     29120.0       218.4         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     29224.0       248.8         0.0
+TIME 2022-12-04 11:48:30
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      39k     28496.0       243.8         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k      8528.0       187.9         0.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      38k     16848.0       234.6         0.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      29k     19864.0       143.2         2.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     22464.0       231.6         1.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     24232.0       263.0         0.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     24648.0       186.9         0.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     25480.0       238.7         0.0
+TIME 2022-12-04 11:48:31
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     26520.0       275.2         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     26104.0       233.6         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     26312.0       222.4         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     26520.0       243.8         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     26832.0       235.6         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     27352.0       263.0         3.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      38k     27352.0       259.0         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     27456.0       299.6         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      35k     26520.0       248.8         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      14k     26312.0        82.3         0.0
+TIME 2022-12-04 11:48:32
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      32k     26416.0       211.2         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27       0k         0.0         0.0         2.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25      24k      6760.0       113.8         0.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     14352.0       189.9         0.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     19656.0       206.2         2.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     22256.0       246.8         0.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     23504.0       248.8         0.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     24960.0       218.4         0.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     25688.0       252.9         0.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     26000.0       232.6         0.0
+TIME 2022-12-04 11:48:33
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      38k     26624.0       261.0         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     25792.0       244.8         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      38k     26312.0       232.6         1.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     26520.0       247.8         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     27040.0       280.3         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      38k     27768.0       299.6         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     27456.0       337.2         1.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      26k     27664.0       186.9         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      34k     27664.0       248.8         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     27976.0       279.3         0.0
+TIME 2022-12-04 11:48:34
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      38k     28392.0       258.0         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      45k      6968.0       170.6         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      42k     11336.0       180.8         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      43k     13728.0       190.9         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      42k     15912.0       234.6         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     17784.0       263.0         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     18408.0       297.6         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     20280.0       202.1         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     21528.0       262.0         0.0
+TIME 2022-12-04 11:48:35
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      39k     21112.0       230.5         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     22256.0       231.6         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     22880.0       284.4         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      40k     22776.0       277.3         1.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     21528.0       225.5         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     21008.0       241.7         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     22256.0       222.4         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     22880.0       255.9         3.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      41k     21424.0       244.8         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     22360.0       182.8         0.0
+TIME 2022-12-04 11:48:36
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     21632.0       235.6         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.16       0k         0.0         1.0         0.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k      8528.0       150.3         0.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      37k     14664.0       175.7         0.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      26k     18304.0       152.3         0.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     22256.0       265.1         0.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      40k     23504.0       266.1         0.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     24336.0       237.7         2.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      48k     22568.0       235.6         0.0
+TIME 2022-12-04 11:48:37
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      34k     22360.0       195.0         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     21528.0       215.3         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     22776.0       265.1         1.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     24128.0       296.6         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     24128.0       278.3         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     25272.0       272.2         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      40k     25792.0       218.4         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     25272.0       297.6         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     25584.0       216.3         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     24440.0       230.5         0.0
+TIME 2022-12-04 11:48:38
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     24544.0       257.0         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25       0k         0.0         1.0         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k      9984.0       166.6         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     15184.0       151.3         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     20280.0       225.5         3.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27      20k     20696.0       106.6         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     21112.0       206.2         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     21632.0       212.3         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     22464.0       265.1         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     24232.0       208.2         0.0
+TIME 2022-12-04 11:48:39
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      40k     26208.0       217.3         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     26728.0       272.2         1.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     28080.0       239.7         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      40k     28808.0       238.7         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     29120.0       244.8         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      40k     29848.0       231.6         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     30160.0       202.1         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     30472.0       243.8         1.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     31200.0       234.6         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     31304.0       221.4         0.0
+TIME 2022-12-04 11:48:40
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     30784.0       234.6         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22       0k         0.0         1.0         0.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k      9880.0       186.9         0.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     17576.0       161.5         2.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      28k     21112.0       134.1         0.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      40k     23816.0       216.3         2.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     24960.0       225.5         0.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     25792.0       246.8         0.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     26728.0       259.0         0.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     27976.0       195.0         0.0
+TIME 2022-12-04 11:48:41
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     27456.0       272.2         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     27768.0       257.0         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     28912.0       287.4         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     29744.0       296.6         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     30680.0       254.9         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     30680.0       221.4         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     30576.0       224.5         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      39k     30784.0       286.4         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     30784.0       284.4         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      18k     29120.0       120.9         0.0
+TIME 2022-12-04 11:48:42
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     29432.0       236.6         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.21       0k         0.0         0.0         1.0
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      41k      7592.0       158.4         0.0
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     14872.0       180.8         0.0
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     19656.0       189.9         4.1
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     22360.0       222.4         0.0
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     24128.0       234.6         0.0
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     25272.0       247.8         0.0
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      41k     26416.0       239.7         2.0
+TIME 2022-12-04 11:48:43
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     27456.0       273.2         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     26728.0       331.1         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32       8k     26208.0        77.2         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      34k     26624.0       209.2         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     27144.0       265.1         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      41k     27664.0       283.4         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      40k     27456.0       243.8         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      41k     28080.0       236.6         1.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     28704.0       260.0         0.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     28600.0       242.7         2.0
+TIME 2022-12-04 11:48:44
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     28704.0       251.9         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25       0k         0.0         1.0         0.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k      9776.0       184.8         0.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     16536.0       184.8         1.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     21216.0       208.2         0.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     24544.0       251.9         0.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     26832.0       277.3         0.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      33k     27664.0       212.3         0.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     27664.0       291.5         1.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     28600.0       221.4         0.0
+TIME 2022-12-04 11:48:45
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     28704.0       251.9         0.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     28080.0       223.4         0.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     29328.0       260.0         0.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      40k     29848.0       261.0         0.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     30472.0       247.8         2.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     30784.0       255.9         0.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     30680.0       229.5         2.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     30888.0       267.1         0.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     31200.0       213.3         2.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     30888.0       243.8         0.0
+TIME 2022-12-04 11:48:46
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     30784.0       239.7         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k      8424.0       188.9         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     17056.0       169.6         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      40k     21008.0       218.4         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      40k     23088.0       247.8         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     24336.0       237.7         1.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     25272.0       266.1         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      40k     26104.0       206.2         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      42k     26936.0       249.8         0.0
+TIME 2022-12-04 11:48:47
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      41k     27456.0       287.4         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     27352.0       267.1         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.22      19k     27768.0        96.5         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.17      17k     27976.0       110.7         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     28288.0       297.6         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     28808.0       280.3         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     29016.0       246.8         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     29640.0       304.7         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     30160.0       270.2         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      39k     30264.0       223.4         0.0
+TIME 2022-12-04 11:48:48
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     30160.0       237.7         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.23       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k      6760.0       178.8         0.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     14248.0       183.8         1.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     18304.0       195.0         0.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      38k     21112.0       182.8         0.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     23920.0       241.7         0.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     25376.0       241.7         0.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      38k     25272.0       238.7         1.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      38k     26520.0       213.3         0.0
+TIME 2022-12-04 11:48:49
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     25792.0       235.6         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      37k     26832.0       283.4         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      36k     28392.0       232.6         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      36k     28600.0       222.4         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     29016.0       260.0         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     29224.0       258.0         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     29016.0       245.8         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      39k     29328.0       254.9         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     29536.0       221.4         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31       7k     29016.0        36.6         0.0
+TIME 2022-12-04 11:48:50
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     28080.0       292.5         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27       0k         0.0         0.0         2.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k      7592.0       182.8         0.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     14040.0       187.9         0.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      38k     17680.0       223.4         0.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     20592.0       229.5         2.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     22256.0       228.5         0.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     23608.0       260.0         0.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      34k     24544.0       229.5         0.0
+TIME 2022-12-04 11:48:51
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      33k     25792.0       197.0         2.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     25480.0       254.9         0.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      37k     27144.0       258.0         2.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     27872.0       216.3         0.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      37k     28496.0       270.2         0.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34       6k     28288.0        42.7         0.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     28288.0         0.0         0.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     28496.0       270.2         2.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      38k     28704.0       268.1         0.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     28288.0       236.6         0.0
+TIME 2022-12-04 11:48:52
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     29120.0       209.2         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.24       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k      6240.0       118.8         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     15080.0       190.9         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      25k     19656.0       127.0         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      16k     21840.0        91.4         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      26k     24128.0       175.7         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      37k     26208.0       232.6         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     27248.0       228.5         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      36k     28080.0       220.4         0.0
+TIME 2022-12-04 11:48:53
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      37k     28704.0       214.3         1.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      25k     28288.0       177.7         0.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      37k     28288.0       235.6         0.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     29848.0       267.1         0.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      37k     31512.0       224.5         0.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     31512.0       249.8         0.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     32136.0       217.3         3.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     31824.0       281.3         0.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     32344.0       261.0         1.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      38k     32448.0       263.0         1.0
+TIME 2022-12-04 11:48:54
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     32760.0       247.8         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.27       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k      6760.0       142.2         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     14352.0       164.5         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     19240.0       172.7         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      19k     21008.0       109.7         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      38k     23712.0       226.5         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      37k     25792.0       219.4         4.1
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      37k     26832.0       241.7         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     25896.0       236.6         0.0
+TIME 2022-12-04 11:48:55
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     26208.0       235.6         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     25896.0       261.0         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      38k     27144.0       246.8         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      37k     28392.0       206.2         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      27k     28184.0       201.1         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     28392.0       266.1         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      37k     28704.0       241.7         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     28600.0       265.1         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     28704.0       211.2         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      16k     28704.0       105.6         0.0
+TIME 2022-12-04 11:48:56
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      29k     28080.0       193.0         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26       0k         0.0         1.0         0.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k      9360.0       168.6         0.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     16952.0       176.7         1.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     20176.0       262.0         0.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     21736.0       236.6         0.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     23296.0       244.8         0.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      38k     25064.0       245.8         0.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     25376.0       275.2         0.0
+TIME 2022-12-04 11:48:57
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      39k     25792.0       219.4         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     25064.0       247.8         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     25896.0       242.7         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     26312.0       255.9         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     27040.0       244.8         2.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     27456.0       225.5         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.23      14k     27456.0        93.4         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     27976.0       272.2         1.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      31k     28080.0       215.3         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      27k     27976.0       175.7         0.0
+TIME 2022-12-04 11:48:58
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      31k     28704.0       166.6         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      24k      6344.0       130.0         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      37k     15288.0       145.2         1.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     22672.0       200.1         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32       8k     23088.0        47.7         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     23088.0         0.0         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      31k     24960.0       176.7         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      38k     25896.0       279.3         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     26208.0       279.3         0.0
+TIME 2022-12-04 11:48:59
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     27456.0       241.7         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      37k     25168.0       262.0         1.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     25792.0       230.5         1.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     26832.0       251.9         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     27768.0       250.9         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     28496.0       261.0         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      37k     28600.0       192.0         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      33k     28808.0       231.6         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.21       6k     28600.0        34.5         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     29224.0       248.8         0.0
+TIME 2022-12-04 11:49:00
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      25k     29432.0       181.8         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k      7800.0       132.0         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     17056.0       162.5         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     22672.0       225.5         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     24336.0       221.4         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     25688.0       233.6         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.28      30k     27144.0       193.0         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     27664.0       205.2         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.37      38k     28808.0       251.9         0.0
+TIME 2022-12-04 11:49:01
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      37k     29120.0       262.0         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     28496.0       248.8         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     28808.0       251.9         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     29432.0       262.0         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     30056.0       218.4         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     30368.0       270.2         1.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     30368.0       241.7         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      37k     30264.0       198.0         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     30056.0       233.6         0.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      42k     29536.0       252.9         2.0
+TIME 2022-12-04 11:49:02
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     29848.0       246.8         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.26       0k         0.0         0.0         1.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k      7488.0       152.3         0.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     13208.0       174.7         0.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     19136.0       239.7         0.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     21424.0       190.9         0.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      37k     22880.0       258.0         0.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     23400.0       244.8         0.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      38k     24544.0       217.3         0.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     25688.0       222.4         1.0
+TIME 2022-12-04 11:49:03
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     26520.0       234.6         1.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     25376.0       250.9         1.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      37k     25792.0       220.4         0.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     26624.0       251.9         1.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     27144.0       218.4         0.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     27352.0       265.1         4.1
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      39k     27664.0       206.2         0.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      22k     27976.0       146.2         0.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      22k     28288.0       110.7         0.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     28808.0       259.0         0.0
+TIME 2022-12-04 11:49:04
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     28808.0       220.4         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k      9984.0       189.9         0.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     17992.0       188.9         0.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     22464.0       190.9         3.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.19      42k     17888.0       339.2         0.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      42k     15080.0       302.7         0.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      41k     15496.0       265.1         0.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      41k     15392.0       265.1         0.0
+TIME 2022-12-04 11:49:05
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.37      40k     17784.0       249.8         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      40k     20176.0       221.4         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     20800.0       266.1         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      34k     21736.0       194.0         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     24128.0       243.8         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     24856.0       218.4         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     25064.0       259.0         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     25168.0       207.2         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      39k     25272.0       252.9         1.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     25688.0       281.3         0.0
+TIME 2022-12-04 11:49:06
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     25168.0       266.1         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      12k      2496.0        45.7         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     11440.0       194.0         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     16432.0       186.9         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     20592.0       205.2         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     21528.0       232.6         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     21424.0       216.3         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      39k     21632.0       216.3         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     22672.0       247.8         0.0
+TIME 2022-12-04 11:49:07
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     24440.0       214.3         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      39k     23712.0       285.4         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      38k     23816.0       251.9         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.36      39k     25168.0       214.3         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     25792.0       210.2         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k     26624.0       282.3         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.35      39k     26416.0       220.4         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     26520.0       237.7         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     26936.0       249.8         2.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     26312.0       253.9         0.0
+TIME 2022-12-04 11:49:08
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      38k     27248.0       229.5         0.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      33k      9152.0       125.9         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      37k     17160.0       181.8         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     22256.0       205.2         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      14k     22152.0        85.3         1.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      37k     23400.0       209.2         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      38k     24544.0       249.8         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     25272.0       245.8         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      39k     26208.0       188.9         0.0
+TIME 2022-12-04 11:49:09
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      37k     25584.0       221.4         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     24752.0       298.6         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.29      21k     24856.0        96.5         2.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      36k     25480.0       213.3         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      26k     25896.0       160.5         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   0.00       0k     24856.0        10.2         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      24k     24648.0       154.4         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.31      37k     25480.0       223.4         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.32      39k     25376.0       260.0         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      38k     18720.0       302.7         0.0
+TIME 2022-12-04 11:49:10
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.33      39k     21216.0       234.6         1.0
+monitoring 100957
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+TIME 2022-12-04 11:49:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.25       0k         0.0         0.0         0.0
+TIME 2022-12-04 11:49:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.30      38k      8216.0       151.3         0.0
+TIME 2022-12-04 11:49:11
+     PID     CORE    IPC   MISSES     LLC[KB]   MBL[MB/s]   MBR[MB/s]
+  100957        5   1.34      38k     15704.0       175.7         0.0
