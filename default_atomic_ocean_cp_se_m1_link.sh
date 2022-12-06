@@ -5,17 +5,17 @@
 GEM5_DIR=$(pwd)/../gem5
 GEM5_EXE=$GEM5_DIR/build/X86/gem5.opt
 #BIN=${GEM5_DIR}/tests/test-progs/hello/bin/x86/linux/hello
-BIN=$(pwd)/water_nsquared
+BIN=$(pwd)/ocean_cp
 SE_PATH=$(pwd)/../gem5/configs/example/se.py
-ARGS="1 "
+ARGS="-n258 -p1 -e1e-07 -r20000 -t28800"
 
-mkdir m1s_default_atomic_parsec_se
+mkdir m1s_default_atomic_ocean_ncp_se
 
-OUTDIR=m1s_default_atomic_parsec_se
+OUTDIR=m1s_default_atomic_ocean_ncp_se
 
 
 $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
-                    --cpu-type=TimingSimpleCPU	\
+                    --cpu-type=AtomicSimpleCPU	\
                     --num-cpus=4               \
 					--mem-channels=1			\
 					--cpu-clock=4GHz			    \
@@ -36,6 +36,6 @@ $GEM5_EXE --outdir=${OUTDIR} $SE_PATH 	\
 					--redirects /lib64=$(pwd)/x86_root/lib64 \
 					--redirects /lib=$(pwd)/x86_root/lib \
 					--cmd=${BIN}		\
-					--options="${ARGS}" \
-					--input=input_1
+					--options="-n258 -p1 -e1e-07 -r20000 -t28800"
+					#--input=input_1
 echo "output directory:${OUTDIR}"
